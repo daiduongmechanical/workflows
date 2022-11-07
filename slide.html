@@ -1,0 +1,45 @@
+<div class="galary_slide" ng-controller="slideController">
+ <a href="#!galary" class=" btn btn-warning galary_slide-back">Back to gallery</a>
+  <div
+    class="galary_slide-image"
+    style="background-image: url(./static_file/{{galary[position].image[slidePosition]}})"
+    
+  >
+    <div class="galary_slide-hide" >
+      <i ng-click="slide_back(galary[position].image)" class="fa-solid fa-chevron-left"></i>
+<p class="galary_slide-hide-play" 
+ng-click="show(galary[position].link)">click to see video</p>
+        <ng-youtube-embed 
+        class="galary_slide-video"
+        width="100%"
+      height="470px"
+        video="videoID"
+        autoplay="true"
+        color="white"
+        disablekb="true"
+        allow="autoplay"
+       ng-show="showVideo"
+        >
+    </ng-youtube-embed>
+    
+      
+      <i ng-click="slide_next(galary[position].image)" class="fa-sharp fa-solid fa-chevron-right"></i>
+   
+     
+   
+    </div>
+    
+</div>
+
+
+<div class="galary_slide-info">
+  <a class="galary_slide-info-link"
+  title="click to see this mountain in map"
+  target="_blank"
+   href="{{galary[position].location}}">{{galary[position].name}}</a>
+  <p>{{galary[position].infomation}}</p>
+<a class="galary_slide-info-tour btn btn-success"
+ href="#!tour">Tour to this mountain</a>
+</div>
+</div>
+

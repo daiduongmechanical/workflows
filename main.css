@@ -1,0 +1,1060 @@
+html{ 
+    scroll-behavior: smooth;}
+    body {
+        width: 100%;
+    }
+#navbar{
+    position: fixed;
+    width: 100%;
+height: 60px;
+    background: linear-gradient(to bottom, #1e528e 0%,#265889 50%,#9da671 100%);
+    background-size: contain;
+    z-index: 10;
+ 
+}
+.nav-item a{
+    color: white;
+    font-size: 25px;
+    margin: 0 5px;
+    padding: 11px 0;
+}
+.nav-item:hover{
+    background-color: rgba(148,0,211,0.6);
+}
+
+.container-fluid{
+    height: 100%;
+ 
+}
+.logo{
+    height: 100%;
+    aspect-ratio: 2.5/1;
+    background-image: url(./static_file/officlogo.png);
+    background-size:110%;
+    background-position: center;
+}
+
+
+#main__conntainer{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.drop-info{
+    position: absolute;
+left :40%; 
+ cursor: pointer;
+ 
+}
+
+   
+
+.drop-info__hide{
+    width: 100%;
+    position: absolute;
+   box-shadow: 3px 3px 3px 3px gray;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+    display: none;
+   left:-0px
+}
+
+
+.drop-info__hide a{
+    color:yellowgreen ;
+    text-decoration: none;
+    font-size: 30px;
+    width: 100%;
+    padding: 7px ;
+    text-align: center;
+
+}
+.drop-info__hide a:hover{
+    background-color: rgba(132, 140, 207,0.5);
+    color: yellow;
+}
+.drop-info:hover .drop-info__hide{
+   display: flex;
+ 
+}
+.info{
+    width: 100%;
+   
+}
+/* css  icon email */
+.email__icon{
+
+ font-size: 20px;
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    background-color: #0d6efd;
+   padding: 5px 10px;
+     border-radius: 100%;
+   
+    bottom: 100px;
+ 
+}
+.email__icon a{
+    color: white;
+}
+.email__icon:hover{
+    background-color: yellow;
+}
+
+/* css icon messenger */
+.messenger{
+    position: fixed;
+    bottom: 150px;
+    right: 43px;
+    font-size: 35px;
+    color: #0d6efd ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 8;
+    
+
+}
+.messenger_icon:hover{
+    color: yellow;
+}
+.messenger_hide{
+    width: 250px;
+    height: 350px;
+    background-color: aqua;
+    display: none;
+    border: 2px solid black;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px gray;
+  
+
+}
+.messenger_hide-input{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+}
+.messenger_hide-mesenge{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 5px;
+    overflow: auto;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+
+}
+
+
+.messenger_hide-mesenge::-webkit-scrollbar {
+    width: 15px
+  }
+::-webkit-scrollbar-track {
+    background: yellow;;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:gray;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow;
+  }
+
+
+
+.mess{
+    font-size: 15px;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+ margin-left: auto;
+    margin-bottom: 7px;
+}
+.automess{
+    font-size: 15px;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 10px;
+ margin-right: auto;
+    margin-bottom: 7px;
+}
+
+.input_value{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+.messenger_icon{
+    cursor: pointer;
+}
+
+.info_show{
+    position: fixed;
+    top: 80px;
+    left: 20px;
+  height: auto;
+  display: flex;
+  background-color:rgba(132, 140, 207,0.5);
+  border-radius: 20px;
+  z-index: 3;
+ 
+}
+.info_show-icon{
+  cursor: pointer;
+   font-size:40px;
+   color: rgba(210, 215, 211, 0.4);
+   
+ 
+  
+}
+.info_show-icon:hover{
+    color: black;
+}
+
+.info_show-list{
+    flex-direction: column;
+    display: none;
+    background-color:rgba(132, 140, 207,0.5);
+    border-radius: 20px;
+    height: auto;;
+
+}
+.info_show-list a{
+font-size: 25px;
+color: blue;
+text-decoration: none;
+padding: 7px 30px 7px;
+font-weight: bold;
+}
+.info_show-list a:hover{
+    background-color: yellowgreen;
+    border-radius: 20px;
+    color:red;
+}
+.info_show:hover{
+    color: yellow;
+}
+.info_show:hover .info_show-list{
+    display: block;
+    transition-delay: 1s;
+
+   
+   
+}
+#first{
+    width: 100%;
+    height: 100vh;
+   background-image: url(./static_file/image\ page\ 1.jpg);
+   background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: right; 
+
+
+}
+
+
+
+
+
+
+
+.first__gallary{
+    width: 30%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+    padding: 40px;
+flex-direction: column;
+}
+.first__gallary p{
+    color: white;
+    text-shadow: 5px 5px 5px  black;
+ margin-bottom: 25px;
+  font-size: 30px;
+}
+.gotoTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 40px;
+    cursor: pointer;
+      
+}
+.gotoTop:hover{
+   color: yellow; 
+}
+#galary{
+    height: auto;
+    width: 98.7vw;
+    box-sizing: border-box;
+    padding-top: 8vh;
+   background-image:  linear-gradient(to bottom, #154277 0%, #576e71 30%, #e1c45e 70%, #b26339 100%)
+}
+ 
+
+.galary_item{
+    width: 100%;
+    height: 300px;
+
+}
+.galary_item-image{
+    width: 100%;
+   height: 90%;
+   border-top-right-radius: 10px ;
+   border-top-left-radius: 10px ;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+ 
+
+}
+.galary_item-link{
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+    font-size: 20px;
+}
+.galary_item-name{
+background-color:aqua;
+width: 100%;
+text-align: center;
+font-size: 20px;
+color: white;
+border-bottom-right-radius: 10px ;
+border-bottom-left-radius: 10px ;
+
+}
+.galary_slide{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 0 60px;
+    padding-top:100px;
+    padding-bottom: 40px;
+
+}
+.galary_slide-back{
+    position: absolute;
+    right: 20px;
+    top :70px;
+    text-decoration: none;
+
+}
+.galary_slide-image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.galary_slide-image:hover .galary_slide-hide-play{
+    display: block;
+    
+}
+.galary_slide-hide{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-size: 30px;
+  color: wheat;
+  text-shadow: 2px 2px 2px black;
+}
+.galary_slide-hide-play{
+display: none;
+position: relative;
+text-align: center;
+}
+.galary_slide-info{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 10px;
+    flex-direction: column;
+}
+.galary_slide-info-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 5px 5px 5px gray;
+}
+.galary_slide-info-tour{
+    text-decoration: none;
+
+}
+
+.galary_slide-video{
+    position:static;
+    width: 100%;
+    height: 100%;
+   
+}
+
+/* css cho phan tour */
+#tour{
+    width: 100vw;
+ background-image: url(./static_file/tourbackground.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 10vh;
+}
+.tour_item{
+    width:auto;
+    height:auto;
+  box-shadow: 3px 3px 3px 3px white;
+  background-color: rgba(112,112,112,0.6);
+    display: flex;
+}
+.tour_item-logo{
+ aspect-ratio: 1/1;
+    min-height: 150px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-left: 5px;
+}
+.tour_item-info{
+    min-width: 17%;
+    margin-left: 10px;
+
+}
+.tour_item-info p{
+ 
+    margin-top: 10px;
+    text-align: left;
+    
+
+}
+.tour_item-info-name{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+ 
+}
+.tour_item-description{
+    margin-left: 20px;
+    height: 100%;
+    border-left: 2px solid black;
+    box-sizing: border-box;
+    padding: 0 10px;
+ 
+}
+.tour_item-description-title{
+    font-weight: bold;
+    font-size: 25px;
+ 
+
+}
+/* css phan club */
+#club{
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+
+
+}
+.club_item{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.club_item-cover{
+    width: 100%;
+    height: 100%;
+   box-shadow: 3px 3px 3px 3px black;
+   
+}
+.club_item-image{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.club_item-name{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  
+
+}
+.club_item-address{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+}
+.club_item-content{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.club_item-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/* css phan detail */
+#detail{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 15vh 20px 25px 20px;
+    display: flex;
+}
+.detail_map{
+    width: 65%;
+    height: 100%;
+    border: 2px solid black;
+    border-right: 0 ;
+}
+.detail_info{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black
+
+}
+.detail_info-content{
+    width: 100%;
+    height: 20%;
+}
+.detail_info-link{
+    width: 100%; 
+    height: 40%;
+}
+.detail_info-name{
+    text-align: center; 
+}
+
+.detail_info-name a{
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+    color: red;
+    text-shadow:4px 4px 4px black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* css cho shelter */
+
+#shelter{
+    width: 100%;
+    height: 100vh;
+   
+    box-sizing: border-box;
+    display: flex   ;
+    padding: 30px 30px;
+    padding-top: 13vh;
+ 
+}
+.shelter_btn{
+    width: 20%;
+    height: 100%;
+   border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 3px 3px 3px 3px gray;
+    
+}
+.shelter_info{
+    width: 80%;
+    height: 100%;
+    border: 2px black solid;
+    border-left: 0;
+    padding-left: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.shelter_name{
+    min-width: 80%;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: transparent;
+  box-shadow: 3px 3px 3px 3px gray;
+    color: black;
+   
+}
+.shelter_content{
+    font-size: 25px;
+}
+.shelter_info-img{
+    width: 50%;
+    height:50%;
+    float: right;
+    
+}
+
+/* css phan history */
+#history{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+ padding: 30px 30px ;
+    padding-top: 9vh;
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
+}
+.history_cover-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px gray;
+}
+.history_cover{
+    background-color: #1e528e;
+}
+.timeline{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  
+     
+}
+.timeline_item{
+    
+   position: relative;
+    width: 3%;
+    aspect-ratio: 1/1;
+    background-color: aqua;
+    border-radius: 100%;
+    z-index: 1;
+cursor: pointer;
+}
+
+.timeline_bar{
+    position: absolute;
+    width: 94%;
+    z-index: 0;
+    height: 1.5%;  
+    
+}
+
+.timeline_item-time{
+    position: relative;
+    bottom: 80%;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.timeline_moment{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;;
+}
+
+.timeline_content{
+    margin-top: 20px;
+    width: 100%;
+    height:60vh;
+
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.timeline_content-main{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.timeline_content-image{
+    width: 30%;
+    height: 100%; 
+    background-size: cover;;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+/* css phan style */
+
+#style{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+  
+  
+
+}
+.style_cover{
+    border: 2px solid black;
+}
+
+.style_item{
+ width: 100%;
+display: flex;
+justify-content:space-around;
+border: 2px solid black;
+border-bottom: 0;
+box-shadow: 6px 6px 6px gray;
+
+}
+
+.style_button{  
+    color:black;
+   width: 35%;
+   height: 100%;
+   padding: 5px 0;
+border: none;
+font-size: 20px;
+font-weight: bold;
+
+background-color: white;
+
+  
+}
+
+.style_content{
+    width: 100%;
+    height: 95%;
+    box-sizing: border-box;
+    background-color:white;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px  gray;
+ 
+
+ 
+ 
+}
+.style_content-info{
+    background-color:white;
+    width: 65%;
+    height: 100%;
+    font-size: 18px;
+}
+.style_content-more{
+
+    width: 35%;
+    height: 100%;
+}
+.style_content-image{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style_content-skill{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+}
+.style_content-skill-detail{
+font-size: 17px;
+font-weight: bold;
+    margin-bottom: 5px;
+   
+}
+.style_content-skill-icon{
+margin-right: 10px;
+color: blue;
+}
+
+.style_content-image{
+    width: 100%;
+  aspect-ratio: 1/3;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+}
+.style_item-info{
+    background-color: gray;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* css phan skill */
+#skill{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    padding:30px ;
+    padding-top: 13vh;
+
+}
+.skill_cover {
+    overflow: scroll; /* Show scrollbars */
+  }
+  .skill_coverr::-webkit-scrollbar {
+    width: 20px
+  }
+::-webkit-scrollbar-track {
+    background: aqua;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:red
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow;
+  }
+  .skill_cover{overflow-x: hidden;}
+
+
+.skill_cover{
+height: 95%;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px  gray;
+    
+}
+h2{
+    color: rgb(30, 30, 210);
+}
+
+.text_form{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px;
+    text-align: justify;
+    font-size: 110%;
+}
+.text_form_sub{
+   margin: 0 20px;
+    line-height: 1.8;
+}
+
+
+/* Footer */
+#footer{
+width: 100%;
+    background-color: lightyellow;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-contact{
+    width: 50%;
+    height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+    
+}
+
+.footer-store{
+    width:50%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.footer-link{
+width: 100%;
+display: flex;
+justify-content: center;  
+}
+.footer-link a{
+font-size: 30px;
+color: black;
+margin: 10px 20px;
+}
+
+.footer_cover{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+/* css phan hazard */
+#hazard{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding:30px;
+    padding-top: 12vh;
+
+    display: flex;
+}
+.hazard_btn{
+    width: 40%;
+    height: 100%;
+    border: 2px solid black;
+    border-right: 0;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 5px;
+ 
+  
+}
+.hazard_info{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    padding-left: 10px;
+    border: 2px solid black;
+  
+
+}
+.hazard_name{
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    cursor: pointer;
+   
+}
+.hazard_content{
+    font-size: 25px;
+}
+
+.hazard_btn {
+    overflow: scroll; /* Show scrollbars */
+  }
+  .hazard_btn::-webkit-scrollbar {
+    width: 10px
+  }
+::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:gray;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow;
+  }
+  .hazard_btn{overflow-x: hidden;
+}
+@media(max-width:450px){
+    /* css phan home page */
+    html,body{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+  #coverall{
+    max-width: 100%;
+  }
+
+#navbar{
+
+    max-width: 100%;
+
+}
+
+#first{
+    width: 100%;
+   height: 300px;
+}
+.first__gallary{
+    width: 100%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+flex-direction: column;
+padding-top: 60%;
+}
+.first__gallary p{
+    color: white;
+    text-shadow: 2px 2px 2px  black;
+ margin-bottom: 25px;
+  font-size: 16px;
+}
+
+
+
+    #main__container{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

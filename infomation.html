@@ -1,0 +1,324 @@
+
+<div  class="info">
+    
+    <a ng-click="showfirst()"
+     class="gotoTop" 
+     href="#!/info/#history" >
+        <i class="fa-solid fa-circle-up"></i>
+    </a>
+
+    <div class="info_show">
+        <i class="fa-solid fa-circle-chevron-right info_show-icon"></i>
+    <div class="info_show-list">
+
+        <a ng-click="showfirst()" href="#!/info/#history">history</a>
+        <a ng-click="showfirst()" href="#!/info/#hazard">hazard</a>
+        <a ng-click="showfirst()" href="#!/info/#style">style</a>
+        <a ng-click="showfirst()" href="#!/info/#shelter">shelter</a>
+        <a ng-click="showfirst()" href="#!/info/#skill">skill</a>
+
+    </div>
+</div>
+<div id="history" >
+    <div class="history">
+
+<div class="timeline">
+   
+    <div class="timeline_item"  
+    
+    ng-repeat="s in history"
+    ng-click="clickHistory(s)"
+   
+    >
+        <span class="timeline_item-time">{{s.year}}</span>
+    </div>
+ 
+    <progress class="timeline_bar w3-blue" value="0" max="100"> </progress>  
+</div>
+<div class="history_cover-contain">
+<p class="timeline_moment">{{history[positionHistory].moment}}</p>
+<div class="timeline_content">
+ 
+     <div class="timeline_content-main">
+        {{history[positionHistory].content}}
+     </div> 
+     <div class="timeline_content-image"
+     style="background-image:url(./static_file/{{history[positionHistory].image}})">
+     </div> 
+     
+</div>
+</div>
+
+    </div>
+</div>
+
+
+<div >
+
+    
+
+    <div id="hazard">
+        <div class="hazard_btn">
+            <div class="row ">
+            <button  
+            class="hazard_name col-lg-4 col-sm-6 " 
+            ng-repeat="s in hazard" 
+            ng-click="clickhazard(s)"
+            style="background-image: url(./static_file/{{s.image}});">
+            
+               <p>{{s.name}}</p>
+            </button> 
+        </div>
+        </div>
+        <div class="hazard_info">
+            <div class="hazard_content">{{hazard[positionhazard].content}}
+                
+          
+            </div>
+        </div>
+    </div>
+    
+
+
+<div id="style" >
+
+    <div class="style_item" >
+        <button class="style_button"
+        ng-repeat="s in style"
+        ng-click="clickStyle(s)"
+        >
+        {{s.name}}
+        </button>
+        </div>
+        <div class="style_content">
+            <p class="style_content-info">{{style[positionStyle].infomation}}</p>
+
+            <div class="style_content-more" >
+
+                <div style="background-image:url(./static_file/{{style[positionStyle].image[autoImage]}});" 
+                class="style_content-image">
+                </div>
+                
+                <div class="style_content-skill">
+                    <h2>Technique Tips:</h2>
+                    <ul class="style_content-skill-detail" ng-repeat="s in style[positionStyle].skill">
+                        <li><i class="fa-solid fa-mountain-sun style_content-skill-icon"></i>{{s}}</li>
+                    </ul>
+                   
+                </div>
+                    </div>
+        </div>   
+    </div>
+
+    
+    
+
+
+
+
+<!-- phan shelter finished -->
+<div id="shelter" >
+    <div class="shelter_btn">
+
+       
+        <button  
+        class="shelter_name "
+        ng-repeat="s in shelter"
+        ng-click="shelterClick(s)">
+       
+        {{s.name}}
+        </button> 
+    </div>
+    <div class="shelter_info">
+        <img class="shelter_info-img" src="./static_file/{{shelter[positionshelter].image}}" alt="nen">
+        <div class="shelter_content">
+            <p>{{shelter[positionshelter].content}}</p>
+        </div>
+    </div>
+</div>
+
+<div id="skill">
+    
+    <div class="skill_cover">
+    <div class="text_form">
+        <h1>Indoor Technique Tips</h1> 
+        <h2>1. Footwork drills</h2>
+        <p>One of the best times to work on your footwork is during your first warm-up climbs. On easy ground you can focus on making each placement perfectly and this will set the standard for the rest of the session. It will also help to reduce the boredom of your warm-up by keeping you mentally challenged. Slow each foot placement down and pause over the hold for a split second while you decide on optimum positioning. Place the foot silently, and without scuffing the wall above the foothold. Try not to re-adjust your feet or to test the footholds excessively. Work on doing this more quickly and intuitively as the warm-up progresses.</p>
+        
+        <h2>2. Basic body position for steep walls</h2>
+        <p>The movement pattern for overhangs is entirely different to the movement pattern for vertical walls. The way we learn to climb on slabs and vertical walls is with our hips parallel, as if climbing a ladder, but this causes all sorts of problems on the steep stuff. With your hips parallel, your arms will be forced to pull extra-hard and you will constantly feel out of balance. The answer is to twist into the wall with your hips and straighten your arms. The way to do this is by stepping over the ‘centre line’ and using footholds on the left with the outside edge of your right foot (or vice versa). You can then brace your spare foot against the wall to form a stable tripod. Each reach can then be assisted by the rotational motion of your body, rather than doing it all with the arms. It is a myth that you need strong arms for overhanging walls – if you get this movement sequence right, you may barely need to bend your arms at all.</p>
+        <p align="center"><img src="static_file/technical1.jpg" width="800" height="500"></p>
+        <p align="center"><small>Good body position is crucial on steep ground as Ian Vickers demonstrates. Photo: David Simmonite</small></p>
+    
+        <h2>3. Flagging</h2>
+        <p>If you are unable to position yourself using your outside edge on an overhanging wall and find yourself off-balance with your hips parallel, then you have two alternatives to correct yourself: first simply to swap feet and get onto the outside edge of your other foot; but swapping feet can feel precarious and you may find that you need to swap them back again as soon as you’ve made the reach. A much slicker option is simply to ‘flag’ your trailing leg into a balance position, to make the reach and then to come out of the flag. You can either do this by bringing the trailing leg behind the active leg (if the foothold is high) or by bringing it inside the active leg (if the foothold is low – see photo). Note that the ‘inside flag’ is a more efficient option as it enables you to twist into the wall.</p>
+    
+        <h2>4. Slapping on steep walls</h2>
+        <p>Speed and timing are the two most important variables for dynamic moves. The faster you pull-up, the more momentum you will be able to capture at the ‘deadpoint’ (this is the split-second weightless moment at the top end of a dyno). Thrust upwards with your legs and hips rather than just pulling with your arms. You must then co-ordinate the upward reach precisely with the dead-point – if you are too slow then all momentum will be lost. Another common mistake is to lose pressure on the footholds at the moment when you move your hand, especially when the footholds are poor. Keep thinking feet as you slap and keep your body taught to take the strain. On steep walls you must ‘pull’ with your feet rather than pushing. Curved ‘toe-down’ shoes help you to use your foot like a claw. If you are having difficulty sticking the target hold then try ‘cheating’ into position and hanging it, to gain confidence and learn the position. Your hips should finish vertically below the hold to minimize outward swing. If you really are a ‘static’ climber then try double-handed dynos on a gently overhanging wall with your feet on good footholds to teach yourself the timing sequence.</p>
+    
+    
+        <h2>5. Cutting loose</h2>
+        <p>It's always best to avoid cutting loose on overhangs but sometimes you have no choice. The secret is to take one leg off before the other to reduce the severity of the swing. Arch your back as you swing, bend one of your legs up behind you and keep the other in front. Tense your back muscles as hard as you can to kill the swing. Try to use the momentum on the reverse side of the swing to help you lift your feet back up. Aim to re-locate them first time, because another attempt will seriously drain your energy.</p>
+        
+        <h2>6. Using volumes</h2>
+        <p>Volumes are an important new addition to modern climbing walls, but many climbers find their first encounter to be a pretty intimidating affair. Volumes can make the wall feel so much steeper and they are often covered in nasty screw-ons or slopers. But they can be tamed with the following tips: Step well back first to look for hidden holds over the top, peer round the sides for side-pulls and underneath to check for under-cuts. Look for chalk-lines or ‘tick-marks’, but if these aren’t evident then take a reference point so that you can locate the hold from below when it is out of site. When planning your moves, think 3-dimensionally and consider palming and bridging. Only hang the flat sloping face of a volume as an absolute last resort, and instead consider cupping the side, pinching them or crimping a screw-on and pinching the bottom (see photo). Where two volumes appear close to each other it may also be possible to jam or knee-bar between them. Avoid getting stretched out as you move up onto a volume and use heel-hooks and toe-hooks to prevent you from swinging off. Where possible, try to get bunched on top and use the easier angled face to fashion a rest.</p>
+        <p align="center"><img src="static_file/technical2.jpg" width="800" height="500"></p>
+        <h2>7. Slopers</h2>
+        <p>Of course it helps to have a vice-like grip to use slopers but technique also plays a huge part. If possible, test the surface of the hold first to feel for the best part. Aim for maximum contact and ‘smear’ your hand into position. The thumb is crucial - try pinching the side or underneath or put three fingers on top and pinch with your little finger on one side. Use the crimp or half-crimp grip if the depth of the sloper is less than your second finger joint, or if it has a slightly in-cut or indented section. Try to keep your wrist as stiff as possible. Keep your centre-of-gravity vertically below the hold in both planes. If you reach for a sloper out to the side then steer your hips towards it before you try to weight it. Always stay as low as possible to the hold. It is usually a bad idea to use two footholds at a similar height, as this will force you too high and out of balance. Instead, take one foot off and flag the spare leg to counterbalance. Keep your body taut and be smooth and stealthy with your movements. And above all else – keep trying. You’ll never master slopers unless you get involved. Happy slapping!</p>
+    
+    
+        <h1>Outdoor Technique Tips</h1>
+        <p>It’s hard to overstate the importance of good technique. When you focus on technique, moves start to click into place and you find yourself floating up routes that used to be too difficult. This section covers some key concepts:</p>
+        <ul class="text_form_sub" >
+            <li>Ways to use your feet</li>
+            <li>Ways to maintain balance</li>
+            <li>Ways to be more efficient</li> 
+        </ul> <br>
+
+        <strong>Video: Climbing Techniques</strong><br><br>
+        <div align="center">        <iframe width="700" height="400" src="https://www.youtube.com/embed/GdvmNTZzYZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+        <h2>1. Using your Feet</h2>
+        <p>Feet are the foundation of climbing. Lots of beginners try to pull themselves up the wall and quickly tire out. Think about climbing a ladder—you don’t pull yourself up, you step up, and use your arms and hands for balance. It’s the same in climbing. 
+            <br>Basic techniques for using your feet are edging and smearing: <br>
+        <ul class="text_form_sub">
+        <li><strong>Edging</strong> is exactly what it sounds like: You step on a hold with the rubber on the edge of your shoe. You can use the inside edge, where your big toe offers stability on smaller holds, or you can use the outside edge. Your choice depends on the direction you need to move in order to get on or off the hold.</li>
+        <br><li><strong>Smearing</strong> happens when you don’t have an actual foothold, so you rely on your shoe’s rubber for friction against the rock. Smearing is useful in slab climbing, when you’re on low-angle rock without many defined footholds. </li>
+        </ul>
+        <p>When you smear, look for small depressions or protrusions that will give a little extra friction. You can also flatten out the angle for slightly better purchase.</p>
+         Keep the following footwork tactics in mind when climbing:
+         <ul class="text_form_sub"> 
+            <li>
+                <strong>Try to keep your feet directly below you.</strong> Keep an eye out for footholds in good positions, so you can maintain better balance.
+            </li>
+            <li>
+                <strong>Look for foot placements even more than for handholds.</strong>
+            </li>
+            <li>
+                <strong>Once you set your foot, keep it still.</strong> You’ll have a better chance of staying on the hold as you make your next move.
+            </li>
+            <li>
+                <strong>Keep your heel low so you have plenty of contact with the wall.</strong> With a high heel less rubber is on the rock, reducing friction and increasing the odds that you’ll lever your foot off the wall when you make your next move.
+            </li>
+         </ul>
+        
+         <h2>2. Maintaining Balance</h2>
+         <p>When you’re lucky enough to have a line of jugs leading straight up the wall, climbing is pretty intuitive. When you’re on a route where you have to move and pull in different directions, though, you have to use your body to maintain balance.</p>
+         <p>When you have to use a hold that’s out to the side, you can’t pull straight down. So you need to find a way to counter the force of that side pull, so you don’t lose balance and barn-door off the wall.</p>
+         <p>Balancing tactics:</p>
+         <ul class="text_form_sub">
+            <li>
+                Press your foot in the opposite direction of the pull to create counter pressure.
+            </li>
+            <li>
+                Pull in the opposite direction with your other hand or a hooked foot.
+            </li>
+            <li>
+                Lean over hard and use your body weight as a counter balance.
+            </li>
+         </ul>
+
+         <h2>3. Climbing Efficiently</h2>
+         <p>Learn how to use less energy and how to give your muscles a break as you climb:</p>
+         <ul class="text_form_sub">
+            <li>
+                <strong>Straight arms are happy arms.</strong> Straightening your arm allows your skeleton to take most of the weight, not your muscles. Even a slight bend in your elbow means your muscles are working to hold it there.
+            </li>
+            <li>
+                <strong>Focus on your hips.</strong> Beginners often keep hips squared to the wall, which can feel very stable, but it pushes your weight away from the wall and stresses your muscles.
+            </li>
+            <li>
+                <strong>Try to keep one hip pushed up against the wall.</strong> That helps keep your weight over your feet and lets you lean back with straight arms.
+            </li>
+            <li>
+                <strong>Having a hip close to the wall brings your shoulder closer.</strong> Your weight is over your feet, decreasing your chances of peeling off. A close shoulder also changes the angle of pull on handholds, making them easier to grip.
+            </li>
+            <li>
+                <strong>Good climbers climb with their eyes.</strong> Keep your eyes on the wall to look for holds that let you take a quick rest. Don’t just focus on the chalk marks.
+            </li> 
+            <li>
+                <strong>When you find a good rest, use it.</strong> Allow your pulse to slow down and shake out your arms so they don’t get pumped later.
+            </li>
+         </ul>
+
+         <h1>Snow Climbing Technique Tips</h1>
+         <h2>Ascending in Snow</h2>
+         <p>Ascending snow without crampons requires step-kicking—where you use your boot to slice into the snow, creating a level platform to remain in balance. Step-kicking can be done three ways. Which method you use depends on the angle of the slope and the conditions of the snow. You’ll adapt your footwork as the terrain, your comfort level and balance change. When you start to get out of balance, consider switching to a different footwork technique.</p>
+         <p> <strong>Take turns:</strong> In firmer, deeper or unconsolidated snow (where your foot can sink in), kicking steps can become more exhausting. In such cases, it’s a good idea to take turns kicking steps, or breaking trail, with others in your group. The person in the lead kicks steps up a slope and the followers walk in those same steps, helping to improve the platform for others who follow. Switch out leaders so everyone shares the load. Also consider the location where you plan to alternate whomever is in front, making sure you’re not in a spot where you’re exposed to overhead dangers or fall hazards.</p>
+         <h3>1. Step-kicking (straight in)</h3>
+         <div align="center"><video src="static_file/stepkick.mp4" width="70%" height="70%" loop="true" autoplay="autoplay" controls muted></video></div>
+         <p>This technique is the foundation of ascending on low-angle, softer snow. You’ll adjust how you kick steps when the slope angle and snow consistency changes.  </p>
+         <ol class="text_form_sub">
+            <li>Use your boot to slice straight into the snow to create a level platform</li>
+            <li>Make sure your entire foot is in contact with snow</li>
+            <li>Stand tall and center your weight over that foot</li>
+            <li>Avoid pointing your toes uphill or going on tippy-toes which could throw you off balance</li>
+         </ol><br>
+         <h3>2. Duck Foot</h3>
+         <div align="center"><video src="static_file/duckfoot.mp4" width="70%" height="70%" loop="true" autoplay="autoplay" controls muted></video></div>
+         <p>As the terrain gets steeper or your level of comfort decreases using the duck walk position, transition to the crossover technique to move more securely and stay in balance.</p>
+         <ol class="text_form_sub">
+            <li>Face across the fall line of the slope while still ascending</li>
+            <li>Cross your downhill foot over the other foot and step up at a diagonal</li>
+            <li>Bring the other foot around and repeat</li>
+         </ol>
+         <h3>3. Rest Step</h3>
+         <div align="center"><video src="static_file/reststep.mp4" width="70%" height="70%" loop="true" autoplay="autoplay" controls muted></video></div>
+         <p>The rest step is essential for conserving energy when you’re climbing or hiking uphill. This technique gets you into a steady rhythm which will help you climb more efficiently and help prevent your muscles from becoming fatigued. With each step, you momentarily rest between strides as you shift your weight onto the skeleton of your back leg.</p>
+         <p>Here’s how to rest step:</p>
+         <ol class="text_form_sub">
+            <li>Step uphill with one foot</li>
+            <li>Stand tall while straightening your downhill leg and locking that knee</li>
+            <li>Momentarily rest on that rear leg</li>
+            <li>Take the next step up</li>
+         </ol>
+         <p>Tip: Take small steps.</p>
+
+         <h2>Descending in Snow</h2>
+         <p align="center"><img src="static_file/descending.jpg" width="700" height="400"></p>
+         <p>Many mountaineering accidents occur on the descent when you’re likely to be more exhausted. Learn different ways to get down a snow slope more safely and efficiently.</p>
+         <h3>1. Plunge Stepping</h3>
+         <div align="center"><video src="static_file/plungestep.mp4" width="70%" height="70%" loop="true" autoplay="autoplay" controls muted></video></div>
+         <p>The plunge step is a useful technique to keep you in balance and help you descend quickly. In this technique:</p>
+         <ul class="text_form_sub">
+            <li>
+                Step down and drive your heel straight down into the snow; avoid digging your heel back into the slope
+            </li>
+            <li>Bend your knees slightly and maintain a wider stance</li>
+            <li>Keep your toes up and out of the snow</li>
+            <li>Keep your arms in front of you and avoid leaning backward</li>
+         </ul>
+         <h3>2. Glissading</h3>
+         <p>Glissading is a fast and exciting way to get down a mountain. There are several rules of glissading, whether you’re standing or sitting:</p>
+         <ol class="text_form_sub">
+            <li>Don’t do it wearing crampons</li>
+            <li>Don’t do it on a glacier</li>
+            <li>Don’t do it while roped together</li>
+         </ol>
+         <p>If you’re glissading, you need to know what’s below you and be able to see the runout. If you can’t see what’s below you, then it’s a bad idea to glissade. Always be prepared to self-arrest if you lose control.</p>
+         <p align="center"><img src="static_file/descending1.jpg" width="700" height="400"></p>
+         <h3>3. Seated glissade</h3>
+         <p>Glissading while seated is easy to do. You’re essentially sliding downhill on your butt while using your ice axe to stay in control.</p>
+         <p>Tips for a seated glissade:</p>
+         <ul class="text_form_sub">
+            <li>Keep your feet in front of you and knees slightly bent</li>
+            <li>Hold your ice axe with both hands (one hand on the adze, the other on the shaft) and dig the spike into the snow at your side as a rudder to slow down or stop</li>
+         </ul>
+         <p align="center"><img src="static_file/descending2.jpg" width="700" height="400"></p>
+         <h3>4. Standing glissade (boot skiing)</h3>
+         <p>Boot skiing, also known as a standing glissade, can be a fast, efficient (and drier) way to get down the mountain. You’re basically downhill skiing using the soles of your boots (rather than skis) to glide. This takes more practice than the seated glissade but keeps you drier.</p>
+         <p>Tips for a standing glissade:</p>
+         <ul class="text_form_sub">
+            <li>Stand in a skiing position with knees slightly bent and feet close together</li>
+            <li>Start sliding downhill keeping your body forward (with your nose over your toes)</li>
+         </ul>
+
+    </div>
+
+
+</div>
+</div>
+
+
+
+</div>

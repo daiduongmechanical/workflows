@@ -1,0 +1,26 @@
+<div id="tour">
+<div  class="container">
+    <a href="#!galary" class=" btn btn-warning galary_slide-back">Back to gallery</a>
+    <div class="tour_item mt-4"
+   
+    ng-repeat="s in galary[position].tour"
+            >
+        <div class="tour_item-logo" style="background-image:url(./static_file/{{s.logo}}) ;"></div>
+        <div class="tour_item-info">   
+        <p class="tour_item-info-name">{{s.name}}</p>
+
+        <span><i class="fa-sharp fa-solid fa-link"></i></span>
+        <a target="_blank"
+        href="{{s.link}}">go to website</i></a>
+        <br><br>
+        <span><i class="fa-solid fa-phone"></i></span><span>{{s.phone}}</span>
+        
+    </div>
+    <div class="tour_item-description">
+        <p class="tour_item-description-title">description</p>
+        <p>{{s.description}}</p>
+    </div>
+        
+    </div>
+</div>
+</div>

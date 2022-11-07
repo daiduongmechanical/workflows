@@ -1,0 +1,303 @@
+{
+    "galary":[
+    {
+        "id":0,
+      "location":"https://goo.gl/maps/26TBjcvHgoCpm9pu8",
+        "name":"Everest",
+        "infomation":"Mount Everest attracts many climbers, including highly experienced mountaineers. There are two main climbing routes, one approaching the summit from the southeast in Nepal (known as the  and the other from the north in Tibet. While not posing substantial technical climbing challenges on the standard route, Everest presents dangers such as altitude sickness, weather, and wind, as well as hazards from avalanches and the Khumbu Icefall. As of 2019, over 300 people have died on Everest, many of whose bodies remain on the mountain.",
+        "image":["everest.jpg","everest1.jpg","everest2.jpg"],
+        "height":"8,848.86 m",
+        "link":"nZmO8B9rRik?autoplay=1",
+        "tour":[{"logo":"logotour0.png"
+               ,"name":"Hikingnepal"
+               ,"link":"https://www.hikingnepal.com/itinerary/rapid-everest-base-camp-trek?gclid=CjwKCAjw5P2aBhAlEiwAAdY7dImjLqXJ4iGAGNIZep0FRpHFvSkfRC4ZE2FKag1ps34B4flUUamQchoC2UMQAvD_BwE"
+               ,"phone":"+977 9843409163"
+               ,"description":"Rapid Everest Base Camp trek is a quick way to reach the base camp of mighty the Mount Everest, with a taste of endurance trek to Kalapatthar and walk over the glacier."
+            
+               },
+               {"logo":"everesttour1.png"
+               ,"name":"mtnprofessionals"
+               ,"link":"https://www.mtnprofessionals.com/climbing-expeditions/mt-baker-5-day-skills-course/?utm_source=google&utm_medium=ppc&utm_campaign=baker_advanced&gclid=CjwKCAjwh4ObBhAzEiwAHzZYU0lJZNd6lNeoaNmSMI5CBYA3_UlBJp6Bjrw3jSHvEQ-e4XJDpN0RRBoCuRsQAvD_BwE"
+               ,"phone":"+1 303-956-9945"
+               ,"description":"The program so exceeded my expectations and it was a privilege to learn from you! I so appreciated your patience and thoroughness in instruction, but also your kindness and humility. Also for making us feel comfortable in a group and guidance for next steps!"
+            
+               },
+               {"logo":"everesttour2.jpg"
+               ,"name":"treksplannernepal"
+               ,"link":"https://www.treksplannernepal.com/package/everest-base-camp-trek-10-days.html?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU1t7Z-jOlD2MvkXFYjtECJwE5SLWxlzQlGE_pzjMIKnClhriSuqaTRoCA5MQAvD_BwE"
+               ,"phone":"+977-14432875 "
+               ,"description":"Everest Base Camp Trek - 10 Days is one of the most searched and preferred trekking destinations by the trekkers around the world and this trekking could be a combo of both adventure and challenge for you. 10 Day Everest Base Camp Trek is designed for trekkers who are familiar with the trekking in the Himalayas and limited time."
+            
+               }
+               
+               ]
+     },
+
+     {
+        "id":1,
+        "location":"https://goo.gl/maps/PoTicgCZhTao4RPL9",
+        "name":" Kilimanjaro",
+        "infomation":" a dormant volcano in Tanzania. It has three volcanic cones: Kibo, Mawenzi, and Shira. It is the highest mountain in Africa and the highest single free-standing mountain above sea level in the world: 5,895 metres (19,341 ft) above sea level and about 4,900 metres (16,100 ft) above its plateau base. It is the highest volcano in Africa and the Eastern Hemisphere.Kilimanjaro is the fourth most topographically prominent peak on Earth. It is part of Kilimanjaro National Park and is a major hiking and climbing destination. Because of its shrinking glaciers and ice fields, which are projected to disappear between 2025 and 2035, it has been the subject of many scientific studies.",
+        "image":["Kilimanjaro.jpg","Kilimanjaro1.jpg","Kilimanjaro2.jpg"],
+        "height":"5,895 m",
+        "link":"61hkC0wTzzo?autoplay=1",
+        "tour":[{"logo":"Kilimajarotour1.png"
+               ,"name":"kilimanjaroonfoot"
+               ,"link":"https://kilimanjaroonfoot.com/kilimanjaro/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUyTWTTqWKTM2aOqk8ZV3KThN3xFLkBxfUGJkvXoF0dg5Wb5f1XnPBRoCnA8QAvD_BwE"
+               ,"phone":"+255 789375603"
+               ,"description":"Kilimanjaro On Foot's team of experts will support you every moment of your hike to the summit, we offer the best trips to trekking Kilimanjaro at affordable prices and cost during hikes. Join the thousands of climbers who have stood on the Mount Kilimanjaro summit guided by our professional local mountain expert team."
+               },
+               {"logo":"Kilimajarotour2.png"
+               ,"name":"shahtours"
+               ,"link":"https://www.shah-tours.com/kilimanjaro-preparation/planning-your-kilimanjaro-trek/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUwmR1tLRlJcp0Qz43xEkuF1cNK9PZldDNMH69-PWA4qBGGK1tp39mBoCHlYQAvD_BwE"
+               ,"phone":"+255 789375603"
+               ,"description":"A private trek on Kilimanjaro means the tour you have booked has your own flexibility of dates and private services for those in your group including sleeping, dining tents, equipment (camping routes), transfers as well as a dedicated team of guides, porters, cook, waiter all there just for you / your group. There will of course be other people trekking and using public facilities at the same time."
+               },
+               {"logo":"Kilimajarotour3.png"
+               ,"name":"shahtours"
+               ,"link":"https://www.safaribookings.com/tours/kilimanjaro"
+               ,"phone":"+31 737070929"
+               ,"description":"For many visitors to Africa, climbing Mt. Kilimanjaro is a once-in-a-lifetime challenge. The climb takes in muddy rainforests, unique high-altitude plants and alpine meadows before finally arriving at the glacier-coated summit. Standing tall above the savannahs of East Africa, Mt. Kilimanjaro (5,896m/19,343ft) is an icon of Africa"
+               }
+               ]
+     },
+
+     {
+        "id":2,
+        "name":"Denali",
+        "location":"https://goo.gl/maps/DV3NnEkxnLAsRtPV7",
+        "infomation":"also known as Mount McKinley, its former official name)[7] is the highest mountain peak in North America, with a summit elevation of 20,310 feet (6,190 m) above sea level. With a topographic prominence of 20,194 feet (6,155 m)[3] and a topographic isolation of 4,621.1 miles (7,436.9 km),[3] Denali is the third most prominent and third most isolated peak on Earth, after Mount Everest and Aconcagua. Located in the Alaska Range in the interior of the U.S. state of Alaska, Denali is the centerpiece of Denali National Park and Preserve.",
+        "image":["Denali.jpg","Denali1.jpg","Denali2.jpg"],
+        "height":"6,190 m",
+        "link":"TiJtxItuC18",
+        "tour":[
+                {"logo":"Denalitour1.png"
+               ,"name":"wondare"
+               ,"link":"https://www.wondare.eu/fr/destinations/7-summits/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU-B5BrG5mfC-8K1Vf0AJ16QLTfej99SAviTXH0apUagmk4h7LOCLgRoCwSAQAvD_BwE"
+               ,"phone":"+33 209208220"
+               ,"description":"The “Seven Summits” or Seven Summits are the highest peaks of the seven continents.A lofty goal, for many climbers, climbing these mountains is the culmination of a lifelong dream.It is an extraordinary feat that requires fitness, commitment, determination, resilience and courage."
+                },
+                {"logo":"Denalitour2.png"
+               ,"name":"viator.com"
+               ,"link":"https://www.viator.com/tours/Alaska/Denali-Flightseeing-Tour/d270-42303P1"
+               ,"phone":"(888) 651-9785"
+               ,"description":"View Denali from the air on this small-group flight over the Alaskan wilderness. Soar over rivers, valleys, and glaciers, and experience landing and walking on a glacier, with the optional glacier landing. Pickup, drop-off, headset, and live commentary are all included."
+                },
+                {"logo":"Denalitour3.png"
+               ,"name":"alaska.org"
+               ,"link":"https://www.alaska.org/destination/denali-national-park/day-tours"
+               ,"phone":"*********"
+               ,"description":"If you want to explore Denali beyond the Park Road, you have to consider a few other excursion options—from jetboats to jeeps, and even golf or dinner theatre. One great excursion option is flightseeing—a safe but also thrilling way to see Denali (Mt McKinley) in ways that only mountain climbers can come close to matching, Another is rafting, where you literally go with the flow as you move through the wilderness."
+                }
+            ]
+     },
+
+     {
+        "id":3,
+        "name":"Fuji",
+        "location":"https://goo.gl/maps/ngq4tyeBJg5tQJ5w5",
+        "infomation":"alocated on the island of Honshū, is the highest mountain in Japan, standing 3,776.24 m (12,389.2 ft). It is the second-highest volcano located on an island in Asia (after Mount Kerinci on the island of Sumatra), and seventh-highest peak of an island on Earth.[1] Mount Fuji is an active stratovolcano that last erupted from 1707 to 1708.[4][5] The mountain is located about 100 km (62 mi) southwest of Tokyo and is visible from there on clear days. Mount Fuji's exceptionally symmetrical cone, which is covered in snow for about five months of the year, is commonly used as a cultural icon of Japan and it is frequently depicted in art and photography, as well as visited by sightseers and climbers.",
+        "image":["Fuji1.jpg","Fuji.jpg","Fuji2.jpg"],
+        "height":"3,778.23 m ",
+        "link":"73n3ELZBv74",
+        "tour":[
+         {"logo":"Fujitour1.png"
+        ,"name":"exploreShare"
+        ,"link":"https://www.explore-share.com/trip/3-days-mt-fuji-ascent-base/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU1dotOUSVA88y_rhMIsopj3mg1LR_rxGHvWOUJuzEXvRVP0qZpPvqhoC3JkQAvD_BwE"
+        ,"phone":"+1 970-236-6075"
+        ,"description":"Join me for a 3-day ascent of Mount Fuji from the base and catch a majestic sunrise! A highly recommended climbing trip to the most iconic mountain in Japan.While most typical tours offer only a 50% ascent of this peak, this program allows you to enjoy Mount Fuji to the fullest!"
+         },
+         {"logo":"Fujitour2.png"
+         ,"name":"klook.com"
+         ,"link":"https://www.klook.com/activity/20537-fuji-owakudani-ropeway-hakone-ship-gotemba-outlet-trip-tokyo/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU3njMMLHOjHDAgTKlyLYeAFa4VWpJLthPyY8HuqnsB6jgO85nplTsxoCh_8QAvD_BwE&gclsrc=aw.ds"
+         ,"phone":" *********"
+         ,"description":"you’ll visit Mount Fuji and ascend to its Fifth Station where you can admire and bask in the grandeur of the landscape surrounding it all the way from 2,400 feet above ground! You’ll also be close to a sea of fluffy clouds, so make sure to bring a fully-charged camera so you can take wonderful snapshots as you move along the area of the Fifth Station"
+          },
+          {"logo":"Fujitour3.png"
+         ,"name":"pelago.co"
+         ,"link":"https://www.pelago.co/en-DE/activity/pj9pt-mount-fuji-and-hakone-tour-tokyo/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUx61-5oDVDPX9eH1FqAI3k3h8Kz_YfxAtj-d76FbnKvswPyR-e4AuBoCeuEQAvD_BwE"
+         ,"phone":" *********"
+         ,"description":"A full-day tour takes you to Hakone in the Fuji-Hakone-Izu National Park, renowned for its hot springs. The itinerary includes a trip to Mount Fuji's 5th Station at 2,300 metres elevation. Then, cruise along pristine Lake Ashi, formed after Mount Hakone's last eruption about 3,000 years ago, and also ride the Komagatake Ropeway"
+          }
+      ]
+     },
+
+     {
+        "id":4,
+        "name":"Fansipan",
+        "location":"https://goo.gl/maps/SL3QQPhh4SgTAPeW8",
+        "infomation":"Fansipan (Vietnamese: Phan Xi Păng, listen) is a mountain in Vietnam. The height of the mountain was 3,143 metres (10,312 ft) in 1909, but now the height of the mountain is 3,147.3 metres (10,326 ft). It is the highest mountain in the Indochinese Peninsula (comprising Vietnam, Laos, and Cambodia), hence its nickname the Roof of Indochina. It is located in the Lào Cai Province of the Northwest region of Vietnam, 9 km (5.6 mi) southwest of Sa Pa in the Hoang Lien Son mountain range. Administratively, it is shared between Tam Đường district, Lai Châu and Sa Pa town, Lào Cai. ",
+        "image":["phanxiphang.jpg","phanxiphang1.jpg","phanxiphang2.jpg"],
+        "height":"3.1473 m",
+        "link":"J1PN5A8ih8I",
+        "tour":[
+                  {"logo":"Fansiphantour1.png"
+                      ,"name":"viator.com"
+                     ,"link":"https://www.viator.com/tours/Northern-Vietnam/1-Day-Trekking-on-Fansipan-mountain-of-Sapa-Tour/d22691-13720P6?m=28353&supag=76382119171&supca=1939178107&supsc=aud-435409373039:dsa-649086883411&supai=398470212433&supdv=c&supnt=g&suplp=1028581&supli=&supti=aud-435409373039:dsa-649086883411&tsem=true&supci=aud-435409373039:dsa-649086883411&supap1=&supap2=&gclid=CjwKCAjwh4ObBhAzEiwAHzZYUzYC72HxG4TiRuCpL3GKYDFNw2jlGB86Jq4TkXE8sX3JLKf1-HGOjhoCuXIQAvD_BwE"
+                     ,"phone":"(888) 651-9785"
+                     ,"description":"Known as “the roof of Indochina”, 10,312-foot (3,143-meter) Mt. Fansipan is Vietnam’s highest mountain. Scale it with a guide in a group no larger than 14 on this day tour that includes lunch, water, pickup from Sapa hotels, and a hot shower in the organizers’ Sapa office on return."
+                  },
+                  {"logo":"Fujitour2.png"
+                     ,"name":"klook.com"
+                     ,"link":"https://www.klook.com/activity/11904-fansipan-cable-car-ticket-transfers-sapa/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU0wd5j2PaV4DaFdN3YgdtW6MAGjnNBaR-txC7p5iCOsHwPiaJ8NmwxoCACAQAvD_BwE&gclsrc=aw.ds"
+                     ,"phone":"*********"
+                      ,"description":"Hassle free to book through Klook. Purchase ticket on the spot upon reaching sun plaza and use it immediately. Went on a Sunday morning and it was very crowded. Need to climb few steps of stairs up to the summit after alight from peak rail. Nice and spectacular place"
+                   },
+               {"logo":"Fansiphantour3.png"
+                     ,"name":"tripadvisor.com"
+                      ,"link":"https://www.tripadvisor.com/AttractionProductReview-g311304-d17800147-1_day_Fansipan_Trekking-Sapa_Lao_Cai_Province.html"
+                     ,"phone":"+1 781 800 5000"
+                      ,"description":"Hike up to the top of the highest mountain in the region with a professional, English-speaking guide to lead the way. The journey is roughly 7.75 miles (12.5 km) in each direction, and you will have the option to either take a cable car back down (for a fee) or descend via the same route you used to get to the top."
+                   }
+      ]
+     },
+
+     {
+        "id":5,
+        "name":"Kirkjufell",
+        "location":"https://goo.gl/maps/wxgp54wr931C8Qim9",
+        "infomation":"Kirkjufell (Icelandic: [ˈcʰɪr̥cʏˌfɛtl̥], (Church Mountain) is a 463 m[1] high hill on the north coast of Iceland's Snæfellsnes peninsula, near the town of Grundarfjörður. It is claimed to be the most photographed mountain in the country.[2] Kirkjufell was one of the filming locations\n for Game of Thrones season 6 and 7, featuring as the arrowhead mountain that the Hound and the company north of the Wall see when capturing a wight.",
+        "image":["Kirkjufell.jpg","Kirkjufell1.jpg","Kirkjufell2.jpg"],
+        "height":" 463 m  ",
+        "link":"S7CZ3lVkz4Q",
+        "tour":[
+                  {"logo":"Fansiphantour3.png"
+                     ,"name":"tripadvisor.com"
+                      ,"link":"https://www.tripadvisor.com/AttractionProductReview-g189970-d23367696-Snaefellsnes_and_Kirkjufell_Full_Day_Tour_from_Reykjavik-Reykjavik_Capital_Region.html"
+                     ,"phone":"+1 781 800 5000"
+                      ,"description":"Venture away from the crowds and embark on the Snaefellsness Peninsula on this full-day excursion from Reykjavik. Spend the day exploring lava caves, mountain peaks, small villages, and black sand beaches, with opportunities to walk around and take photos. Finish your day with a stop at the picturesque Kirkjufell mountain, featured on the hit-HBO show Game of Thrones."
+                   },
+                   {"logo":"Fansiphantour1.png"
+                   ,"name":"viator.com"
+                    ,"link":"https://www.viator.com/tours/Reykjavik/The-Wonders-of-Snaefellsnes/d905-24308P5?m=28353&supag=71427120475&supca=1939178107&supsc=aud-435409373039:dsa-653060334692&supai=420120885813&supdv=c&supnt=g&suplp=1028581&supli=&supti=aud-435409373039:dsa-653060334692&tsem=true&supci=aud-435409373039:dsa-653060334692&supap1=&supap2=&gclid=CjwKCAjwh4ObBhAzEiwAHzZYUzZe-c1e9J9q4OexYiXgWAvp7kBCJXfA6I3nHWBPIuC8cYscvbIPxhoCzXIQAvD_BwE"
+                   ,"phone":"(888) 651-9785"
+                    ,"description":"xplore the natural beauty of the Snæfellsnes peninsula on a full-day tour from Reykjavik. Your knowledgeable guide shares informative commentary about the geology and volcanic terrain as you travel through one of Iceland's most breathtaking landscapes. See the Snæfellsjökull glacier, Kirkjufell Mountain, picturesque fishing villages, and black-sand beaches around the region."
+                 },
+                 {"logo":"Kirkjufelltour1.png"
+                   ,"name":"adventures.is"
+                    ,"link":"https://adventures.is/iceland/day-tours/sightseeing-tours/snaefellsnes-peninsula-small-group-tour/"
+                   ,"phone":" +354 562 7000"
+                    ,"description":"Discover the West of Iceland. The spectacular Snæfellsnes peninsula is coated with lava. Treat yourself to landscape out of this world!"
+                 }
+      ]
+     },
+     {
+      "id":6,
+      "name":"Haku",
+      "location":"https://goo.gl/maps/GazdRZojiLTrSmn37",
+      "infomation":"Mount Haku (白山, Haku-san, White Mountain), or Mount Hakusan (commonly referred to as simply Hakusan), is a dormant stratovolcano in Japan. It is located on the borders of Gifu and Ishikawa, on the island of Honshu. Mount Haku is thought[citation needed] to have first been active 300,000 to 400,000 years ago, with the most recent eruption occurring in 1659. Along with Mount Tate and Mount Fuji, it is one of Japan's Three Holy Mountains (三霊山, San-rei-zan).[2]",
+      "image":["haku1.jpg","haku2.jpg","haku3.jpg"],
+      "height":" 463 m  ",
+      "link":"_nuBnQHUgj4",
+      "tour":[
+                {"logo":"haku4.png"
+                   ,"name":"halfway.com"
+                    ,"link":"https://www.halfwayanywhere.com/hikes/japan-hikes/hiking-mount-haku-hakusan/"
+                   ,"phone":"*********"
+                    ,"description":"The mountain is on the border of Gifu (岐阜), Fukui (福井), and Ishikawa (石川) prefectures in Japan's Hokuriku Region (北陸地方). Ishikawa is home to the most popular trailhead, but the peak can be approached from Gifu and Fukui as well (although these require multi-day hikes – approaching from Mount Sannomine in Fukui via Mount Bessan is one option)"
+                 },
+                 {"logo":"haku5.png"
+                 ,"name":"findlocaltrips.com"
+                  ,"link":"https://www.findlocaltrips.com/tour-details/rainbow-mountain-full-day-tour-haku-travel"
+                 ,"phone":"********"
+                  ,"description":"Trek through wild desert landscapes, snow-capped peaks, herds of alpaca, and arrive at the ultimate destination - the painted hills hidden deep in the Andes – the iconic Rainbow Mountain. The region around the mountain offers impressive scenery of mountains, glaciers, lagoons and streams."
+               },
+               {"logo":"haku6.png"
+                 ,"name":"trip.com"
+                  ,"link":"https://us.trip.com/review/mount-haku-32865639-163343668"
+                 ,"phone":"********"
+                  ,"description":"Please try to access from Omotesando. This is the strongest beauty method. Climb the moss carpet stairs. beautiful! That's how most people get up by car from Urano, but I think walking from Omotesando is the strongest."
+               }
+    ]
+   },
+   {
+      "id":7,
+      "name":"Jasper",
+      "location":"https://goo.gl/maps/Ev6aoqYnEczLfcAv9",
+      "infomation":"Jasper National Park is a national park in Alberta, Canada. It is the largest national park within Alberta's Rocky Mountains spanning 11,000 km2 (4,200 sq mi). It was established as a national park in 1930 and declared a UNESCO World Heritage Site in 1984. Its location is north of Banff National Park and west of Edmonton. The park contains the glaciers of the Columbia Icefield, springs, lakes, waterfalls and mountains.",
+      "image":["jas1.jpg","jas2.jpg","jas3.jpg"],
+      "height":" 463 m  ",
+      "link":"xWufCJaq8BI",
+      "tour":[
+                {"logo":"jas4.png"
+                   ,"name":"tripadvisor.com"
+                    ,"link":"https://www.tripadvisor.com/Attraction_Products-g154918-zfc12019-Jasper_Jasper_National_Park_Alberta.html"
+                   ,"phone":"*********"
+                    ,"description":"The Jasper Tour Company is an Indigenous owned, boutique experience that offers fun and adventurous trips out into Jasper National Park. Our head guide, Joe Urie is a member of the Métis Nation and his people have been living and guiding along the Athabasca River for so long that he has come to consider its waters to be the blood in his veins."
+                 },
+                 {"logo":"jas5.png"
+                 ,"name":"viator.com"
+                  ,"link":"https://www.viator.com/tours/Jasper/Jasper-National-Park-Tour-Maligne-Valley-Medicine-Lake-and-Spirit-Island/d5421-3872MVLAKE"
+                 ,"phone":"********"
+                  ,"description":"Experience the most incredible sights in Jasper National Park’s Maligne Valley during this guided excursion to the region’s most scenic lakes and majestic canyons. Check out Medicine Lake, Maligne Canyon, and Maligne Lake during your trip, keeping your eyes out for area wildlife and learning about the unique natural history (and more recent human settlement) of the Canadian Rockies"
+               },
+               {"logo":"jas6.png"
+                 ,"name":"viator.com"
+                  ,"link":"https://www.viator.com/Jasper-tours/Sightseeing/d5421-tag21725"
+                 ,"phone":"********"
+                  ,"description":"Experience the most incredible sights in Jasper National Park’s Maligne Valley during this guided excursion to the region’s most scenic lakes and majestic canyons. Check out Medicine Lake, Maligne Canyon, and Maligne Lake during your trip, keeping your eyes out for area wildlife and learning about the unique natural history (and more recent human settlement) of the Canadian Rockies"
+               }
+    ]
+   },
+   {
+      "id":8,
+      "name":"Olympus",
+      "location":"https://goo.gl/maps/Hw2bXtqvS9oKVa3J6",
+      "infomation":"Mount Olympus, Modern Greek Ólympos, mountain peak, the highest (9,570 feet [2,917 m]) in Greece. It is part of the Olympus massif near the Gulf of Thérmai (Modern Greek: Thermaïkós) of the Aegean Sea and lies astride the border between Macedonia (Makedonía) and Thessaly (Thessalía). It is also designated as Upper Olympus (Áno Ólympos), as opposed to Lower Olympus (Káto Ólympos), an adjacent peak on the south rising to 5,210 feet (1,588 m).",
+      "image":["oly1.jpg","oly2.jpg","oly3.jpg"],
+      "height":" 463 m  ",
+      "link":"JeNPKSrbpFY",
+      "tour":[
+                {"logo":"oly4.png"
+                   ,"name":"explore-share.com"
+                    ,"link":"https://www.explore-share.com/hiking-trips/greece/mount-olympus/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZore5sK1YFAsk32kCkPWW_stHskPeQ2zKPOyXsPj93CxWtw3fh_STRoCMXsQAvD_BwE"
+                   ,"phone":"*********"
+                    ,"description":"Once home to the Greek gods, now an iconic climbing destination with a unique biosphere reserve Join a hiking tour and climb some of the most spectacular peaks in Greece, such as the famous Mytikas (2,918 m), the highest point in the country. During the traverse, you will enjoy  beautiful landscapes and sea views. The usual starting point is the town of Litochoro. Choose a trip from our selection below and climb the mountain of the Greek gods. Visit between June and October for prime hiking conditions."
+                 },
+                 {"logo":"oly5.png"
+                 ,"name":"aegeanoutdoors.com"
+                  ,"link":"https://aegeanoutdoors.com/tour-destination/mount-olympus/"
+                 ,"phone":"********"
+                  ,"description":"Located on the border between Thessaly and Macedonia and standing with its peak Mytikas at almost 10,000 feet (2,918 m), Mount Olympus is the highest mountain in Greece, one of its most picturesque sites and mythical home of the ancient Greek Gods. Don’t forget that is was here, from its steep rocky summit – first climbed only 100 years ago, where Zeus supposedly hurled his thunderbolts against humankind."
+               },
+               {"logo":"oly6.png"
+                 ,"name":"trekking.gr"
+                  ,"link":"https://trekking.gr/en/destinations/mount-olympus"
+                 ,"phone":"********"
+                  ,"description":"We and our partners store and/or access information on a device, such as cookies and process personal data, such as unique identifiers and standard information sent by a device for personalised ads and content, ad and content measurement, and audience insights, as well as to develop and improve products. With your permission we and our partners may use precise geolocation data and identification through device scanning."
+               }
+    ]
+   },
+   {
+      "id":9,
+      "name":"Rushmore",
+      "location":"https://goo.gl/maps/Z2xLHPZpd4JErU3d8",
+      "infomation":"America's Shrine of Democracy, Mount Rushmore National Memorial features the 60-foot faces of four great American presidents—George Washington, Thomas Jefferson, Theodore Roosevelt and Abraham Lincoln, respectively. These four U.S. Presidents represent the birth, growth, development and preservation of this country.",
+      "image":["rus1.jpg","rus2.jpg","rus3.jpg"],
+      "height":" 463 m  ",
+      "link":"2jfB-pWu1J8",
+      "tour":[
+                {"logo":"rus4.png"
+                   ,"name":"viator.com"
+                    ,"link":"https://www.viator.com/South-Dakota-attractions/Mount-Rushmore/d22169-a19544"
+                   ,"phone":"*********"
+                    ,"description":"The stony faces of presidents George Washington, Thomas Jefferson, Abraham Lincoln, and Theodore Roosevelt peer out from the iconic granite outcrop known as Mount Rushmore National Memorial. The monument in the Black Hills of South Dakota is an American symbol, and with"
+                 },
+                 {"logo":"rus5.png"
+                 ,"name":"tripadvisor.com"
+                  ,"link":"https://www.tripadvisor.com/Attraction_Review-g54774-d2279516-Reviews-Mount_Rushmore_Tours-Rapid_City_South_Dakota.html"
+                 ,"phone":"********"
+                  ,"description":"Mt Rushmore & the Black Hills 9 Hour Sightseeing Tour, with two meals and music show! Leave the driving to us and join the most popular sightseeing tour package in the Black Hills. Tours available from mid May through mid October."
+               },
+               {"logo":"rus6.png"
+                 ,"name":"gocollette.com"
+                  ,"link":"https://www.gocollette.com/en/tours/north-america/usa/spotlight-on-south-dakota"
+                 ,"phone":"********"
+                  ,"description":"Discover the spirit of the American West and come to know the legends of the past. Discover the stories of the Lakota and Sioux through a Native American chronicler. See Crazy Horse Memorial, the world’s largest mountain sculpture still in progress. Visit iconic Mt. Rushmore."
+               }
+    ]
+   }
+     
+
+    ]
+}

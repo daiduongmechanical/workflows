@@ -1,0 +1,33 @@
+<div id="detail" ng-controller="detailClub">
+    <div class="detail_map">
+        <iframe 
+        ng-src={{trustSrc(mapId)}}
+
+         width="100%" 
+        height="100%" 
+        style="border:0;" 
+       
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="detail_info">
+        <div class="detail_info-content">
+            <p class="detail_info-name link__select">
+                <a title="click to thier website"
+                target="_blank"
+                 href="{{club[positionClub].link}}">{{club[positionClub].name}}</a></p>
+            <p>{{club[positionClub].infomation}}</p>
+        </div>
+        <div class="detail_info-link">
+       
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
