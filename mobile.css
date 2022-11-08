@@ -1,0 +1,155 @@
+@media(max-width:450px){
+    /* css phan home page */
+    html,body{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+       
+    }
+  #coverall{
+    max-width: 100%;
+  }
+
+#navbar{
+
+    max-width: 100%;
+    align-items: flex-start;
+
+}
+.navbar_left{
+    flex-direction: column;
+}
+.navbar_item{
+    display: none;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 5px 0;
+    margin-top: 60px;
+   background-color: rgba(255, 252, 127, 0.6);
+
+}
+.navbar_item a{ 
+    color:blue;
+}
+.logo{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+  
+}
+.navbar_right{
+    display: block;
+    margin-top: 10px;
+}
+
+#footer{
+    width: 100%;
+height:30vh;
+font-size: 16px;
+margin-top: 0;
+}
+.footer-contact{
+    width: 50%;
+  aspect-ratio:2/1;
+  margin-top: 20px;
+  margin-right: 5px;
+
+    
+}
+
+.footer-store{
+    align-items: flex-start;
+}
+.footer-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+.footer-title_none {
+    display: none;
+}
+.footer-store p{
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.footer-link a{
+    font-size: 14px;
+    color: black;
+    margin: 0px 5px;
+    }
+
+#first{
+    width: 100%;
+   height: 70vh;
+   padding-top: 10vh;
+
+}
+.first__gallary{
+    width: 100%;
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    box-sizing: border-box;
+flex-direction: column;
+padding-top: 60%;
+}
+.first__gallary p{
+    color: white;
+    text-shadow: 2px 2px 2px  black;
+ margin-bottom: 25px;
+  font-size: 16px;
+}
+#main__container{
+        width: 100%;
+    }
+ /* css phan glary slice    */
+ .galary_slide{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 60px 0px 0px 0px;
+   
+
+
+}
+.galary_slide-image{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+  
+}
+.galary_slide-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+   
+
+    box-sizing: border-box;
+padding: 36vh 5px 5px;
+    flex-direction: column;
+}
+.galary_slide-back{
+    position: fixed;
+    top: 65px;
+    right:10px;
+}
+
+
+
+
+}

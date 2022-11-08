@@ -8,6 +8,7 @@
     <meta name="viewport" content="initial-scale=1"> 
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="mobile.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -34,32 +35,20 @@
   <body ng-app="myapp">
     <!-- phan navbar -->
     <div id="coverall " class=".container ">
-
-      <nav id="navbar" class="navbar navbar-expand-lg bg-light w-100">
-        <div class="container-fluid">
-          <div class="logo"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link link__select" aria-current="page" href="#!home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link__select" href="#!club">organization</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link link__select" ng-click="showfirst()" href="#!info">Infomation</a>
-              </li>
-              
-              
-             
-            </ul>
-        
-          </div>
+      <div id="navbar">
+        <div class="navbar_left">
+        <div class="logo" ></div>
+        <div class="navbar_item">
+          <a class=" link__select" aria-current="page" href="#!home">Home</a>
+          <a class=" link__select" href="#!club">organization</a>
+          <a class=" link__select" ng-click="showfirst()" href="#!info">Infomation</a>
         </div>
-      </nav>
+      </div>
+      <div class="navbar_right">
+        <i class="mobi_icon fa-sharp fa-solid fa-bars"></i>
+      </div>
+      </div>
+
       <!-- phan than  -->
      
       <div id="first">
@@ -106,11 +95,10 @@
 <!-- footer -->
     <div id="footer" ng-cotroller="mycontroller" >
       <div class="footer_cover">
-      <div class="footer-contact">
-          <p class="footer-title">     
+      <div class="footer-contact">    
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.312985135215!2d106.66440761402407!3d10.787323161944077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed245c18b99%3A0x83d529c21d62670a!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1667727735792!5m2!1svi!2s"
-           width="450" 
-           height="300" 
+           width="100%" 
+           height="100%" 
           style="border:2px solid red;" 
           allowfullscreen=""
           loading="lazy" 
@@ -121,8 +109,8 @@
 
       
       <div class="footer-store">
-          <p class="footer-title">About us</p>
-          <p><i class="fa-solid fa-location-dot"></i> 590 CMT8, HoChiMinh city</p>
+          <p class="footer-title">Contact us</p>
+          <p class="footer-title_none"><i class="fa-solid fa-location-dot  "></i> 590 street CMT8, HoChiMinh city</p>
           <p><i class="fa-solid fa-phone"></i> +84 997075996</p>
           <p><i class="fa-solid fa-envelope"></i> ex@gmail.com</p>
           <p><i class="fa-solid fa-phone-rotary"></i>  028 3888 080</p>
@@ -418,6 +406,26 @@ if( messengerbox.style.display!='block'){
   }
 })
   
+
+//handle icon mobile
+
+let icon_mobi=document.querySelector('.mobi_icon')
+let navbar_item=document.querySelector('.navbar_item')
+let link_select=document.querySelectorAll('.link__select')
+icon_mobi.addEventListener('click',()=>{
+if(navbar_item.style.display=="none"){
+  navbar_item.style.display='flex'
+}else{
+  navbar_item.style.display='none'
+}
+
+})
+
+link__select.forEach((e)=>{
+  e.addEventListener('click',()=>{
+    navbar_item.style.display='none' 
+  })
+})
 
 
 
