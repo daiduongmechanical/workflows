@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Security-Policy" content="child-src *;">
-    <meta name="mobile-web-app-capable" content="yes"> 
-    <meta name="viewport" content="initial-scale=1"> 
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+    <meta http-equiv="Content-Security-Policy" content="child-src *;" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="initial-scale=1" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="mobile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -28,408 +31,387 @@
       rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
     <title>moutain</title>
   </head>
   <body ng-app="myapp">
     <!-- phan navbar -->
-    <div id="coverall " class=".container ">
+    <div id="coverall " class=".container">
       <div id="navbar">
         <div class="navbar_left">
-        <div class="logo" ></div>
-        <div class="navbar_item">
-          <a class=" link__select" aria-current="page" href="#!home">Home</a>
-          <a class=" link__select" href="#!club">organization</a>
-          <a class=" link__select" ng-click="showfirst()" href="#!info">Infomation</a>
+          <div class="logo"></div>
+          <div class="navbar_item">
+            <a class="link__select" aria-current="page" href="#!home">Home</a>
+            <a class="link__select" href="#!club">organization</a>
+            <a class="link__select" ng-click="showfirst()" href="#!info"
+              >Infomation</a
+            >
+          </div>
         </div>
-      </div>
-      <div class="navbar_right">
-        <i class="mobi_icon fa-sharp fa-solid fa-bars"></i>
-      </div>
+        <div class="navbar_right">
+          <i class="mobi_icon fa-sharp fa-solid fa-bars"></i>
+        </div>
       </div>
 
       <!-- phan than  -->
-     
+
       <div id="first">
         <div class="first__gallary">
           <p>
-            come to see the best moments with majestic mountains around the world in
-            our gallery
+            come to see the best moments with majestic mountains around the
+            world in our gallery
           </p>
-          <a class="btn btn-warning first__gallary--link link__select" href="#!galary">
+          <a
+            class="btn btn-warning first__gallary--link link__select"
+            href="#!galary"
+          >
             goto galarry
           </a>
         </div>
       </div>
 
-
-
-    <!-- email icon  -->
-    <div class="email__icon">
-     <a title="sent your ideal with us"
-     href="mailto:someone@example.com?subject='report'">
-      <i class="fa-regular fa-envelope"></i>
-     </a>
-    </div>
-
-<!-- messenger icon -->
-<div class="messenger">
-  <div class="messenger_hide">
-    <div class="messenger_hide-mesenge">
-
-    
-    </div>
-    <div class="messenger_hide-input">
-      <input class="input_value" type="text" placeholder="....">
-    </div>
-  </div>
-  <i class="fa-brands fa-facebook-messenger messenger_icon" ></i>
-  
-</div>
-
-    <div id="main__container" ng-view>
-
-      
-    </div>
-<!-- footer -->
-    <div id="footer" ng-cotroller="mycontroller" >
-      <div class="footer_cover">
-      <div class="footer-contact">    
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.312985135215!2d106.66440761402407!3d10.787323161944077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed245c18b99%3A0x83d529c21d62670a!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1667727735792!5m2!1svi!2s"
-           width="100%" 
-           height="100%" 
-          style="border:2px solid red;" 
-          allowfullscreen=""
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-
+      <!-- email icon  -->
+      <div class="email__icon">
+        <a
+          title="sent your ideal with us"
+          href="mailto:someone@example.com?subject='report'"
+        >
+          <i class="fa-regular fa-envelope"></i>
+        </a>
       </div>
 
-      
-      <div class="footer-store">
-          <p class="footer-title">Contact us</p>
-          <p class="footer-title_none"><i class="fa-solid fa-location-dot  "></i> 590 street CMT8, HoChiMinh city</p>
-          <p><i class="fa-solid fa-phone"></i> +84 997075996</p>
-          <p><i class="fa-solid fa-envelope"></i> ex@gmail.com</p>
-          <p><i class="fa-solid fa-phone-rotary"></i>  028 3888 080</p>
-          <div class="footer-link">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <!-- messenger icon -->
+      <div class="messenger">
+        <div class="messenger_hide">
+          <div class="messenger_hide-mesenge"></div>
+          <div class="messenger_hide-input">
+            <input class="input_value" type="text" placeholder="...." />
+          </div>
+        </div>
+        <i class="fa-brands fa-facebook-messenger messenger_icon"></i>
+      </div>
+
+      <div id="main__container" ng-view></div>
+      <!-- footer -->
+      <div id="footer" ng-cotroller="mycontroller">
+        <div class="footer_cover">
+          <div class="footer-contact">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.312985135215!2d106.66440761402407!3d10.787323161944077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed245c18b99%3A0x83d529c21d62670a!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1667727735792!5m2!1svi!2s"
+              width="100%"
+              height="100%"
+              style="border: 2px solid red"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+
+          <div class="footer-store">
+            <p class="footer-title">Contact us</p>
+            <p class="footer-title_none">
+              <i class="fa-solid fa-location-dot"></i> 590 street CMT8,
+              HoChiMinh city
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +84 997075996</p>
+            <p><i class="fa-solid fa-envelope"></i> ex@gmail.com</p>
+            <p><i class="fa-solid fa-phone-rotary"></i> 028 3888 080</p>
+            <div class="footer-link">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
               <a href=""><i class="fa-brands fa-instagram"></i></a>
               <a href=""><i class="fa-brands fa-snapchat"></i></a>
               <a href=""><i class="fa-brands fa-twitter"></i></a>
               <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
           </div>
-         
-          
+        </div>
       </div>
-      </div>
-     
-  </div>
-</div>
+    </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ng-youtube-embed@1.7.16/build/ng-youtube-embed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var app = angular.module("myapp", ["ngRoute", "ngYoutubeEmbed"]);
+      // tao route toi cac trang web con
 
- 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/ng-youtube-embed@1.7.16/build/ng-youtube-embed.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    var app = angular.module("myapp", ["ngRoute","ngYoutubeEmbed"]);
-    // tao route toi cac trang web con
-   
+      app.controller("mycontroller", function ($scope) {});
 
-app.controller("mycontroller",function($scope){
+      app.config(function ($routeProvider) {
+        $routeProvider
+          .when("/home", { templateUrl: "home.html" })
+          .when("/galary", { templateUrl: "galary.html" })
+          .when("/info", { templateUrl: "infomation.html" })
+          .when("/slide", { templateUrl: "slide.html" })
+          .when("/tour", { templateUrl: "tour.html" })
+          .when("/club", { templateUrl: "club.html" })
+          .when("/clubdetail", { templateUrl: "clubdetail.html" });
+      });
+      //lay data tu galay.json
 
-})
+      app.run(function ($rootScope, $http) {
+        $http.get("galary.json").then(function (response) {
+          $rootScope.galary = response.data.galary;
+          $rootScope.position = 0;
 
-    app.config(function ($routeProvider) {
-      $routeProvider
-        .when("/home", { templateUrl: "home.html" })
-        .when("/galary", { templateUrl: "galary.html" })
-        .when("/info", { templateUrl: "infomation.html"})
-        .when("/slide", { templateUrl: "slide.html" })
-        .when("/tour", { templateUrl: "tour.html" })
-        .when("/club", { templateUrl: "club.html" })
-        .when("/clubdetail", { templateUrl: "clubdetail.html" })
+          $rootScope.click = function (event) {
+            $rootScope.position = event.id;
+          };
+        });
+      });
+      // lay data tu file club.json
+      app.run(function ($rootScope, $http) {
+        $http.get("club.json").then(function (response) {
+          $rootScope.club = response.data.club;
+          $rootScopepositionClub = 0;
+          //xu ly phan club
+          $rootScope.clickClub = function (event) {
+            $rootScope.positionClub = event.id;
+            $rootScope.mapId = $rootScope.club[$rootScope.positionClub].map;
+          };
+        });
+      });
 
-    });
-    //lay data tu galay.json
+      //tao controller detailclub
 
-
- 
-
-
-    app.run(function ($rootScope, $http) {
-      $http.get("galary.json").then(function (response) {
-        $rootScope.galary = response.data.galary;
-        $rootScope.position = 0;
-      
-        $rootScope.click = function (event) {
-          $rootScope.position = event.id;
-         
+      app.controller("detailClub", function ($scope, $rootScope, $sce) {
+        $scope.trustSrc = function (src) {
+          return $sce.trustAsResourceUrl(src);
         };
       });
-    });
-// lay data tu file club.json
-    app.run(function ($rootScope, $http,) {
-      $http.get("club.json").then(function (response) {
-        $rootScope.club = response.data.club;
-        $rootScopepositionClub=0
-        //xu ly phan club
-    $rootScope.clickClub = function (event) {
-          $rootScope.positionClub = event.id;
-          $rootScope.mapId=$rootScope.club[$rootScope.positionClub].map       
-        }
-      });
-    });
 
- //tao controller detailclub
+      // tao controller cho galary
+      app.controller("galaryController", function ($scope) {});
 
-    app.controller("detailClub", function ($scope,$rootScope,$sce) {
-      $scope.trustSrc = function(src) {
-    return $sce.trustAsResourceUrl(src);
-}
-    })
-
-
-
-    // tao controller cho galary
-    app.controller("galaryController", function ($scope) {});
-   
-    app.controller("slideController", function ($scope) {
-      let slide_play=document.querySelector('.galary_slide-hide-play')
-      $scope.show=function(x){
-        $scope.showVideo=true;
-          $scope.videoID=x
-          slide_play.style.display="none"
-}
-//set next slide
-$scope.slidePosition=0
-$scope.slide_next=function(x){
-  
-  $scope.showVideo=false;
-  $scope.videoID="none"
-  slide_play.removeAttribute('style')
-  $scope.slidePosition+=1
-if($scope.slidePosition==x.length){
-  $scope.slidePosition=0
- 
-
-}
-}
-//set back slide
-$scope.slide_back=function(x){ 
-  $scope.showVideo=false;
-  $scope.videoID="none"
-  slide_play.removeAttribute('style')
-
-if($scope.slidePosition==0){
-  $scope.slidePosition=x.length-1
-}else{
-  $scope.slidePosition-=1
-
-}
-}
-
-    
-    });
-let link__select=document.querySelectorAll('.link__select')
- let firstPage=document.querySelector('#first')
- link__select.forEach((e)=>{
-e.onclick=(element)=>{
-  firstPage.style.display="none"
-}
- })
- 
- // lay data tu file shelter.json
-
- app.run(function ($rootScope, $http) {
-      $http.get("shelter.json").then(function (response) {
-        $rootScope.shelter = response.data.shelter 
-        $rootScope.positionshelter= 0;
-  $rootScope.shelterClick = function(event){
-    $rootScope.positionshelter=event.id
-    let sheltershow=angular.element(document.querySelectorAll(".shelter_name"))
-    sheltershow.css({'backgroundColor':"transparent"})
-    sheltershow[$rootScope.positionshelter].style.backgroundColor = "aqua"
-     
-    } 
-  
-  })      
-      })
-    
-    
-// tao controoler cho shelter
-app.controller('shelterController', function ($scope){
-})
-   
-//lay data tu file history.json
-
-app.run(function ($rootScope, $http,$document) {
-
-      $http.get("history.json").then(function (response) {
-        $rootScope.history = response.data.history 
-        $rootScope.positionHistory=0
-    $rootScope.clickHistory =function (event){
-      let mm=$document.find('progress')
-       mm[0].value= event.id*11.1
-      $rootScope.positionHistory = event.id
-      let timeNode=angular.element(document.querySelectorAll(".timeline_item"))
-      timeNode.css({'backgroundColor':"aqua"})
-        for(let i = 0; i <Number(event.id)+1; i++){
-          timeNode[i].style.backgroundColor ="green"
-        }
-
-        let timevalue=angular.element(document.querySelectorAll(".timeline_item-time"))
-      timevalue.css({"color": "black",'fontSize':"20px"})
-    
-          timevalue[ $rootScope.positionHistory].style.color="green"
-          timevalue[ $rootScope.positionHistory].style.fontSize="25px"
-
-       
- 
-}
-
-})
-})
-//lay data tu file hazard.json
-app.run(function ($rootScope, $http){
-    $http.get("hazard.json").then(function (response){
-      $rootScope.hazard = response.data.hazard;
-      $rootScope.positionhazard = 0;
-
-      $rootScope.clickhazard = function (event) {
-        let hazard=angular.element(document.querySelectorAll(".hazard_name"))
- hazard.css({"border":"2px solid black"})
-        $rootScope.positionhazard = event.id
-        hazard[event.id].style.border = "thick solid #0000FF"
-      }
-
-    })
-  })
-
-
-//lay data tu file style.json
-app.run(function ($rootScope, $http,$timeout,) {
-      $http.get("style.json").then(function (response) {
-  
-        $rootScope.style = response.data.style;
-        $rootScope.autoImage =0
-        $rootScope.positionStyle = 0;
-//xul y phan loading
-
-
-        let myshow=function(){$timeout(function (){
-
-  let styleBtn=angular.element(document.querySelectorAll(".style_button"))
- styleBtn[0].style.backgroundColor = "gray";
- let timeNode=angular.element(document.querySelectorAll(".timeline_item"))
- let timevalue=angular.element(document.querySelectorAll(".timeline_item-time"))
- timeNode[0].style.backgroundColor = "green";
- timevalue[0].style.color="green"
- timevalue[0].style.fontSize="25px"
- let sheltershow=angular.element(document.querySelectorAll(".shelter_name"))
- sheltershow[0].style.backgroundColor = "aqua";
- let hazard=angular.element(document.querySelectorAll(".hazard_name"))
- hazard[0].style.border = "thick solid #0000FF"
-
-},0)}
-myshow()
-
-        $rootScope.showfirst=function(){     
-myshow()
-        }
-        $rootScope.clickStyle = function (event) {
-          let styleBtn=angular.element(document.querySelectorAll(".style_button"))
-          styleBtn.css({'backgroundColor':"white"})
-              styleBtn[event.id].style.backgroundColor = "gray";
-        $rootScope.positionStyle = event.id
-        $rootScope.startCount = 0;  
+      app.controller("slideController", function ($scope) {
+        let slide_play = document.querySelector(".galary_slide-hide-play");
+        $scope.show = function (x) {
+          $scope.showVideo = true;
+          $scope.videoID = x;
+          slide_play.style.display = "none";
         };
-     //auto slide
-        $rootScope.startTimeout = function () {  
-          if( $rootScope.autoImage==$rootScope.style[$rootScope.positionStyle].image.length-1){
-            $rootScope.autoImage=0
-          }else{
-            $rootScope.autoImage+=1
+        //set next slide
+        $scope.slidePosition = 0;
+        $scope.slide_next = function (x) {
+          $scope.showVideo = false;
+          $scope.videoID = "none";
+          slide_play.removeAttribute("style");
+          $scope.slidePosition += 1;
+          if ($scope.slidePosition == x.length) {
+            $scope.slidePosition = 0;
           }
-        mytimeout = $timeout($rootScope.startTimeout, 3000);  
-    }  
-    $rootScope.startTimeout();  
+        };
+        //set back slide
+        $scope.slide_back = function (x) {
+          $scope.showVideo = false;
+          $scope.videoID = "none";
+          slide_play.removeAttribute("style");
 
-      
+          if ($scope.slidePosition == 0) {
+            $scope.slidePosition = x.length - 1;
+          } else {
+            $scope.slidePosition -= 1;
+          }
+        };
       });
-    });
+      let link__select = document.querySelectorAll(".link__select");
+      let firstPage = document.querySelector("#first");
+      link__select.forEach((e) => {
+        e.onclick = (element) => {
+          firstPage.style.display = "none";
+        };
+      });
 
-// messenger box
+      // lay data tu file shelter.json
 
-let messengericon = document.querySelector('.messenger_icon');
-let messengerbox= document.querySelector('.messenger_hide');
-let inputchange = document.querySelector('.input_value')
-let messcontain = document.querySelector('.messenger_hide-mesenge')
+      app.run(function ($rootScope, $http) {
+        $http.get("shelter.json").then(function (response) {
+          $rootScope.shelter = response.data.shelter;
+          $rootScope.positionshelter = 0;
+          $rootScope.shelterClick = function (event) {
+            $rootScope.positionshelter = event.id;
+            let sheltershow = angular.element(
+              document.querySelectorAll(".shelter_name")
+            );
+            sheltershow.css({ backgroundColor: "transparent" });
+            sheltershow[$rootScope.positionshelter].style.backgroundColor =
+              "aqua";
+          };
+        });
+      });
 
+      // tao controoler cho shelter
+      app.controller("shelterController", function ($scope) {});
 
+      //lay data tu file history.json
 
-inputchange.addEventListener('keydown', (e)=>{
-if(e.keyCode === 13){
- let newmess=document.createElement('div');
- newmess.className="mess"
- newmess.innerText = inputchange.value
- messcontain.appendChild(newmess);
- inputchange.value=""
- let answer=setInterval(() => {
- if(inputchange.value==""){
-  clearInterval(answer);
-let autoanswer=document.createElement('div');
-let autoanswer2=document.createElement('div');
-autoanswer.className="automess"
-autoanswer.innerText ="this is auto answer"
-messcontain.appendChild(autoanswer);
+      app.run(function ($rootScope, $http, $document) {
+        $http.get("history.json").then(function (response) {
+          $rootScope.history = response.data.history;
+          $rootScope.positionHistory = 0;
+          $rootScope.clickHistory = function (event) {
+            let mm = $document.find("progress");
+            mm[0].value = event.id * 11.1;
+            $rootScope.positionHistory = event.id;
+            let timeNode = angular.element(
+              document.querySelectorAll(".timeline_item")
+            );
+            timeNode.css({ backgroundColor: "aqua" });
+            for (let i = 0; i < Number(event.id) + 1; i++) {
+              timeNode[i].style.backgroundColor = "green";
+            }
 
-autoanswer2.className="automess"
-autoanswer2.innerText ="our employee will answer \nas soon as impossible"
-messcontain.appendChild(autoanswer2);
+            let timevalue = angular.element(
+              document.querySelectorAll(".timeline_item-time")
+            );
+            timevalue.css({ color: "black", fontSize: "20px" });
 
- }
-  
- }, 10000);
-}
-})
+            timevalue[$rootScope.positionHistory].style.color = "green";
+            timevalue[$rootScope.positionHistory].style.fontSize = "25px";
+          };
+        });
+      });
+      //lay data tu file hazard.json
+      app.run(function ($rootScope, $http) {
+        $http.get("hazard.json").then(function (response) {
+          $rootScope.hazard = response.data.hazard;
+          $rootScope.positionhazard = 0;
 
-messengericon.addEventListener('click',()=>{
-if( messengerbox.style.display!='block'){
-    messengerbox.style.display='block';
-  }else{
-    messengerbox.style.display='none';
-  }
-})
-  
+          $rootScope.clickhazard = function (event) {
+            let hazard = angular.element(
+              document.querySelectorAll(".hazard_name")
+            );
+            hazard.css({ border: "2px solid black" });
+            $rootScope.positionhazard = event.id;
+            hazard[event.id].style.border = "thick solid #0000FF";
+          };
+        });
+      });
 
-//handle icon mobile
+      //lay data tu file style.json
+      app.run(function ($rootScope, $http, $timeout) {
+        $http.get("style.json").then(function (response) {
+          $rootScope.style = response.data.style;
+          $rootScope.autoImage = 0;
+          $rootScope.positionStyle = 0;
+          //xul y phan loading
 
-let icon_mobi=document.querySelector('.mobi_icon')
-let navbar_item=document.querySelector('.navbar_item')
-let link_select=document.querySelectorAll('.link__select')
-icon_mobi.addEventListener('click',()=>{
-if(navbar_item.style.display=="none"){
-  navbar_item.style.display='flex'
-}else{
-  navbar_item.style.display='none'
-}
+          let myshow = function () {
+            $timeout(function () {
+              let styleBtn = angular.element(
+                document.querySelectorAll(".style_button")
+              );
+              styleBtn[0].style.backgroundColor = "gray";
+              let timeNode = angular.element(
+                document.querySelectorAll(".timeline_item")
+              );
+              let timevalue = angular.element(
+                document.querySelectorAll(".timeline_item-time")
+              );
+              timeNode[0].style.backgroundColor = "green";
+              timevalue[0].style.color = "green";
+              timevalue[0].style.fontSize = "25px";
+              let sheltershow = angular.element(
+                document.querySelectorAll(".shelter_name")
+              );
+              sheltershow[0].style.backgroundColor = "aqua";
+              let hazard = angular.element(
+                document.querySelectorAll(".hazard_name")
+              );
+              hazard[0].style.border = "thick solid #0000FF";
+            }, 0);
+          };
+          myshow();
 
-})
+          $rootScope.showfirst = function () {
+            myshow();
+          };
+          $rootScope.clickStyle = function (event) {
+            let styleBtn = angular.element(
+              document.querySelectorAll(".style_button")
+            );
+            styleBtn.css({ backgroundColor: "white" });
+            styleBtn[event.id].style.backgroundColor = "gray";
+            $rootScope.positionStyle = event.id;
+            $rootScope.startCount = 0;
+          };
+          //auto slide
+          $rootScope.startTimeout = function () {
+            if (
+              $rootScope.autoImage ==
+              $rootScope.style[$rootScope.positionStyle].image.length - 1
+            ) {
+              $rootScope.autoImage = 0;
+            } else {
+              $rootScope.autoImage += 1;
+            }
+            mytimeout = $timeout($rootScope.startTimeout, 3000);
+          };
+          $rootScope.startTimeout();
+        });
+      });
 
-link__select.forEach((e)=>{
-  e.addEventListener('click',()=>{
-    navbar_item.style.display='none' 
-  })
-})
+      // messenger box
 
+      let messengericon = document.querySelector(".messenger_icon");
+      let messengerbox = document.querySelector(".messenger_hide");
+      let inputchange = document.querySelector(".input_value");
+      let messcontain = document.querySelector(".messenger_hide-mesenge");
 
+      inputchange.addEventListener("keydown", (e) => {
+        if (e.keyCode === 13) {
+          let newmess = document.createElement("div");
+          newmess.className = "mess";
+          newmess.innerText = inputchange.value;
+          messcontain.appendChild(newmess);
+          inputchange.value = "";
+          let answer = setInterval(() => {
+            if (inputchange.value == "") {
+              clearInterval(answer);
+              let autoanswer = document.createElement("div");
+              let autoanswer2 = document.createElement("div");
+              autoanswer.className = "automess";
+              autoanswer.innerText = "this is auto answer";
+              messcontain.appendChild(autoanswer);
 
-   
-  </script>
-   </body>
+              autoanswer2.className = "automess";
+              autoanswer2.innerText =
+                "our employee will answer \nas soon as impossible";
+              messcontain.appendChild(autoanswer2);
+            }
+          }, 10000);
+        }
+      });
+
+      messengericon.addEventListener("click", () => {
+        if (messengerbox.style.display != "block") {
+          messengerbox.style.display = "block";
+        } else {
+          messengerbox.style.display = "none";
+        }
+      });
+
+      //handle icon mobile
+
+      let icon_mobi = document.querySelector(".mobi_icon");
+      let navbar_item = document.querySelector(".navbar_item");
+      let link_select = document.querySelectorAll(".link__select");
+      icon_mobi.addEventListener("click", () => {
+        if (navbar_item.style.display == "none") {
+          navbar_item.style.display = "flex";
+        } else {
+          navbar_item.style.display = "none";
+        }
+      });
+
+      link__select.forEach((e) => {
+        e.addEventListener("click", () => {
+          navbar_item.style.display = "none";
+        });
+      });
+    </script>
+  </body>
 </html>

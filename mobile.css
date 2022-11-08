@@ -1,126 +1,116 @@
-@media(max-width:450px){
-    /* css phan home page */
-    html,body{
-        width: 100%;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        overflow-x: hidden;
-       
-    }
-  #coverall{
+@media (max-width: 450px) {
+  /* css phan home page */
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  #coverall {
     max-width: 100%;
   }
 
-#navbar{
-
+  #navbar {
     max-width: 100%;
     align-items: flex-start;
-
-}
-.navbar_left{
+  }
+  .navbar_left {
     flex-direction: column;
-}
-.navbar_item{
+  }
+  .navbar_item {
     display: none;
     flex-direction: column;
     margin-left: 0;
     padding: 5px 0;
     margin-top: 60px;
-   background-color: rgba(255, 252, 127, 0.6);
-
-}
-.navbar_item a{ 
-    color:blue;
-}
-.logo{
+    background-color: rgba(255, 252, 127, 0.6);
+  }
+  .navbar_item a {
+    color: blue;
+  }
+  .logo {
     width: 120px;
     height: 60px;
     position: absolute;
     left: 0;
-  
-}
-.navbar_right{
+  }
+  .navbar_right {
     display: block;
     margin-top: 10px;
-}
+  }
 
-#footer{
+  #footer {
     width: 100%;
-height:30vh;
-font-size: 16px;
-margin-top: 0;
-}
-.footer-contact{
+    height: 30vh;
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .footer-contact {
     width: 50%;
-  aspect-ratio:2/1;
-  margin-top: 20px;
-  margin-right: 5px;
+    aspect-ratio: 2/1;
+    margin-top: 20px;
+    margin-right: 5px;
+  }
 
-    
-}
-
-.footer-store{
+  .footer-store {
     align-items: flex-start;
-}
-.footer-title{
+  }
+  .footer-title {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 5px;
     margin-left: auto;
-}
-.footer-title_none {
+  }
+  .footer-title_none {
     display: none;
-}
-.footer-store p{
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: 10px;
-}
-.footer-link a{
+  }
+  .footer-store p {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+  }
+  .footer-link a {
     font-size: 14px;
     color: black;
     margin: 0px 5px;
-    }
+  }
 
-#first{
+  #first {
     width: 100%;
-   height: 70vh;
-   padding-top: 10vh;
-
-}
-.first__gallary{
+    height: 70vh;
+    padding-top: 10vh;
+  }
+  .first__gallary {
     width: 100%;
     height: 50%;
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     box-sizing: border-box;
-flex-direction: column;
-padding-top: 60%;
-}
-.first__gallary p{
+    flex-direction: column;
+    padding-top: 60%;
+  }
+  .first__gallary p {
     color: white;
-    text-shadow: 2px 2px 2px  black;
- margin-bottom: 25px;
-  font-size: 16px;
-}
-#main__container{
-        width: 100%;
-    }
- /* css phan glary slice    */
- .galary_slide{
-    width:100%;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+  #main__container {
+    width: 100%;
+  }
+  /* css phan glary slice    */
+  .galary_slide {
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 60px 0px 0px 0px;
-   
-
-
-}
-.galary_slide-image{
+  }
+  .galary_slide-image {
     width: 100%;
     height: 35vh;
     display: flex;
@@ -130,26 +120,307 @@ padding-top: 60%;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-  
-}
-.galary_slide-info{
+  }
+  .galary_slide-info {
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-   
 
     box-sizing: border-box;
-padding: 36vh 5px 5px;
+    padding: 36vh 5px 5px;
     flex-direction: column;
-}
-.galary_slide-back{
+  }
+  .galary_slide-back {
     position: fixed;
     top: 65px;
-    right:10px;
+    right: 10px;
+  }
+  .galary_slide-video {
+    position: static;
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+  }
+  /* css phan cluub */
+  .club_item-image {
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .club_item-name {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* css phan club detail */
+  #detail {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding-top: 65px;
+    flex-direction: column;
+  }
+  .detail_map {
+    width: 100%;
+    height: 40vh;
+    border: none;
+    border-right: 0;
+  }
+  .detail_info {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black;
+  }
+
+  /*CSS for style */
+  #style {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .style_cover {
+    border: 2px solid black;
+  }
+
+  .style_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-bottom: 0;
+    box-shadow: 6px 6px 6px gray;
+  }
+
+  .style_button {
+    color: black;
+    width: 35%;
+    height: 100%;
+    padding: 5px 0;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+  }
+
+  .style_content {
+    width: 100%;
+    height: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px gray;
+  }
+  .style_content-info {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 0px;
+  }
+  .style_content-more {
+    width: 100%;
+    height: 50%;
+  }
+  .style_content-image {
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .style_content-skill {
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+  }
+  .style_content-skill-detail {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .style_content-skill-icon {
+    margin-right: 10px;
+    color: blue;
+  }
+
+  .style_content-image {
+    width: 100%;
+    aspect-ratio: 1/3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .style_item-info {
+    background-color: gray;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /*CSS for skill/technique*/
+  #skill {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-top: 13vh;
+    font-size: 90%;
+  }
+
+  .skill_cover {
+    height: 95%;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px gray;
+  }
+  h2 {
+    color: rgb(30, 30, 210);
+    font-size: 22px;
+  }
+
+  .text_form {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px;
+    text-align: justify;
+    font-size: 110%;
+  }
+  .text_form_sub {
+    margin: 0 20px;
+    line-height: 1.8;
+  }
+  .skill_img {
+    width: 300px;
+    height: 180px;
+  }
+  .skill_form_tittle {
+    font-size: 29px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  /* css phan history */
+  #history {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline {
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .timeline_moment {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .timeline_item {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 100%;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .timeline_bar {
+    position: absolute;
+    width: 94%;
+    z-index: 0;
+    height: 5px;
+  }
+  .timeline_item-time {
+    display: none;
+  }
+  .timeline_item-time-mobie {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .timeline_content-image {
+    display: none;
+  }
+  .history_mobi-image {
+    display: block;
+    float: right;
+    width: 50%;
+    aspect-ratio: 1.5/2;
+  }
+  .timeline_content-main {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .timeline_content {
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+  }
+
+  /* css phan hazard */
+
+  #hazard{
+padding:0;
+padding-top: 65px;
+flex-direction: column;
+height: 100vh;
 }
+.hazard_btn{
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.hazard_info{
+    width: 100%;
+    height: calc(100vh-150px);
+    background-color: white;
+
+    border: 2px solid black;
+  
+
+}
+.hazard_content{
+    font-size: 16px;
+}
+#vrow{
+    display: none;
+}
+.hrow{
+    height: 100%;
 
 
+}
+.hazard_name{
+    height: 100%;
+ 
+}
 
 
 }
