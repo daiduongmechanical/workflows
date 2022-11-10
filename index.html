@@ -42,11 +42,9 @@
         <div class="navbar_left">
           <div class="logo"></div>
           <div class="navbar_item">
-            <a class="link__select" aria-current="page" href="#!home">Home</a>
-            <a class="link__select" href="#!club">organization</a>
-            <a class="link__select" ng-click="showfirst()" href="#!info"
-              >Infomation</a
-            >
+            <a class="link__select" ng-click="showfirst()" aria-current="page" href="#!home">Home</a>
+            <a class="link__select" ng-click="showfirst()" href="#!club">organization</a>
+            <a class="link__select" ng-click="showfirst()" href="#!info">Infomation</a>
           </div>
         </div>
         <div class="navbar_right">
@@ -395,7 +393,7 @@
       });
 
       //handle icon mobile
-
+let mql=window.matchMedia("(max-width:450px)")
       let icon_mobi = document.querySelector(".mobi_icon");
       let navbar_item = document.querySelector(".navbar_item");
       let link_select = document.querySelectorAll(".link__select");
@@ -409,7 +407,11 @@
 
       link__select.forEach((e) => {
         e.addEventListener("click", () => {
+          let mql=window.matchMedia("(max-width:450px)")
+         
+          if(mql.matches) {
           navbar_item.style.display = "none";
+          }
         });
       });
     </script>

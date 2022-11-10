@@ -182,7 +182,7 @@
   /*CSS for style */
   #style {
     width: 100%;
-    height: 100vh;
+    height: auto;
     box-sizing: border-box;
     padding: 0px;
     padding-top: 10vh;
@@ -216,7 +216,7 @@
 
   .style_content {
     width: 100%;
-    height: 95%;
+    height: auto;
     box-sizing: border-box;
     background-color: white;
     display: block;
@@ -228,14 +228,14 @@
   .style_content-info {
     background-color: white;
     width: 100%;
-    height: 50%;
+    height: auto;
     font-size: 12px;
     text-align: justify;
     padding-right: 0px;
   }
   .style_content-more {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
   .style_content-image {
     width: 100%;
@@ -421,6 +421,47 @@ height: 100vh;
     height: 100%;
  
 }
+/* css phan shelter */
+#shelter{
+  width: 100%;
+  height:auto;
+ 
+  box-sizing: border-box;
+  display: flex   ;
+  flex-direction: column;
+  padding: 0;
+  padding-top: 60px;
 
-
+}
+.shelter_btn{
+  width: 100%;
+  overflow-x: scroll;
+  height: auto;
+ border: 2px black solid;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: 3px 3px 3px 3px gray;
+  
+}
+.shelter_name{
+  width: auto;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 25px;
+  background-color: transparent;
+box-shadow: 3px 3px 3px 3px gray;
+  color: black;
+ 
+}
+.shelter_info{
+  width: 100%;
+  height: auto;
+  border: 2px black solid;
+  border-left: 0;
+  padding-left: 10px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
 }

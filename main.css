@@ -621,6 +621,11 @@ text-align: center;
     padding-top: 13vh;
  
 }
+
+.skill_image{
+    width: 70%;
+    aspect-ratio: 1.5/1;
+}
 .shelter_btn{
     width: 20%;
     height: 100%;
