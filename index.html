@@ -11,7 +11,9 @@
       content="black-translucent"
     />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="tablet.css" />
     <link rel="stylesheet" href="mobile.css" />
+   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -43,8 +45,8 @@
           <div class="logo"></div>
           <div class="navbar_item">
             <a class="link__select" ng-click="showfirst()"  href="#!home">Home</a>
-            <a class="link__select" ng-click="showfirst()" href="#!club">organization</a>
             <a class="link__select" ng-click="showfirst()" href="#!info">Infomation</a>
+            <a class="link__select" ng-click="showfirst()" href="#!organization">organization</a>
           </div>
         </div>
         <div class="navbar_right">
@@ -145,7 +147,7 @@
           .when("/info", { templateUrl: "infomation.html" })
           .when("/slide", { templateUrl: "slide.html" })
           .when("/tour", { templateUrl: "tour.html" })
-          .when("/club", { templateUrl: "organization.html" })
+          .when("/organization", { templateUrl: "organization.html" })
           .when("/clubdetail", { templateUrl: "clubdetail.html" });
       });
       //lay data tu galay.json
@@ -407,7 +409,7 @@ let mql=window.matchMedia("(max-width:450px)")
 
       link__select.forEach((e) => {
         e.addEventListener("click", () => {
-          let mql=window.matchMedia("(max-width:450px)")
+          let mql=window.matchMedia("(max-width:480px)")
          
           if(mql.matches) {
           navbar_item.style.display = "none";

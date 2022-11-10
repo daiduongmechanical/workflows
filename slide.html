@@ -14,19 +14,21 @@
       <p class="galary_slide-hide-play" ng-click="show(galary[position].link)">
         click to see video
       </p>
+      <div   class="galary_slide-video"
+      ng-show="showVideo">
       <ng-youtube-embed
-        class="galary_slide-video"
+      
         width="100%"
-        height="100%"
+        heigh="100%"
         video="videoID"
         autoplay="true"
         color="white"
         disablekb="true"
         allow="autoplay"
-        ng-show="showVideo"
+      
       >
       </ng-youtube-embed>
-
+    </div>
       <i
         ng-click="slide_next(galary[position].image)"
         class="fa-sharp fa-solid fa-chevron-right"

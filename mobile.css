@@ -1,4 +1,6 @@
-@media (max-width: 450px) {
+
+
+@media (max-width: 480px) {
   /* css phan home page */
   html,
   body {
@@ -465,3 +467,5 @@ box-shadow: 3px 3px 3px 3px gray;
   box-shadow: 3px 3px 3px 3px gray;
 }
 }
+
+
