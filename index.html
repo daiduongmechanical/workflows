@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="tablet.css" />
     <link rel="stylesheet" href="mobile.css" />
-   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -44,9 +43,15 @@
         <div class="navbar_left">
           <div class="logo"></div>
           <div class="navbar_item">
-            <a class="link__select" ng-click="showfirst()"  href="#!home">Home</a>
-            <a class="link__select" ng-click="showfirst()" href="#!info">Infomation</a>
-            <a class="link__select" ng-click="showfirst()" href="#!organization">organization</a>
+            <a class="link__select" ng-click="showfirst()" href="#!home"
+              >Home</a
+            >
+            <a class="link__select" ng-click="showfirst()" href="#!info"
+              >Infomation</a
+            >
+            <a class="link__select" ng-click="showfirst()" href="#!organization"
+              >organization</a
+            >
           </div>
         </div>
         <div class="navbar_right">
@@ -395,7 +400,7 @@
       });
 
       //handle icon mobile
-let mql=window.matchMedia("(max-width:450px)")
+      let mql = window.matchMedia("(max-width:450px)");
       let icon_mobi = document.querySelector(".mobi_icon");
       let navbar_item = document.querySelector(".navbar_item");
       let link_select = document.querySelectorAll(".link__select");
@@ -409,10 +414,10 @@ let mql=window.matchMedia("(max-width:450px)")
 
       link__select.forEach((e) => {
         e.addEventListener("click", () => {
-          let mql=window.matchMedia("(max-width:480px)")
-         
-          if(mql.matches) {
-          navbar_item.style.display = "none";
+          let mql = window.matchMedia("(max-width:480px)");
+
+          if (mql.matches) {
+            navbar_item.style.display = "none";
           }
         });
       });
