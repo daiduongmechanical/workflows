@@ -289,6 +289,11 @@
             let hazard = angular.element(
               document.querySelectorAll(".hazard_name")
             );
+            let hazardMobile = angular.element(
+              document.querySelectorAll(".hazard_nameMobile")
+            );
+            hazardMobile.css({ border: "2px solid black" });
+            hazardMobile[event.id].style.border = "thick solid blue";
             hazard.css({ border: "2px solid black" });
             $rootScope.positionhazard = event.id;
             hazard[event.id].style.border = "thick solid #0000FF";

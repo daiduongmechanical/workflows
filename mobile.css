@@ -416,12 +416,21 @@ height: 100vh;
 }
 .hrow{
     height: 100%;
+  
 
 
+}
+#hrow{
+  display: block;
 }
 .hazard_name{
     height: 100%;
  
+}
+.hazard_nameMobile{
+  height: 100%;
+  
+
 }
 /* css phan shelter */
 #shelter{
@@ -465,6 +474,12 @@ box-shadow: 3px 3px 3px 3px gray;
   border-left: 0;
   padding-left: 10px;
   box-shadow: 3px 3px 3px 3px gray;
+}
+.shelter_info-img{
+  width: 50%;
+  aspect-ratio: 1/1.2;
+  float: right;
+  
 }
 }
 
