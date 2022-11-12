@@ -480,6 +480,15 @@
         }
       });
 
+      link_select.forEach((element) => {
+        element.addEventListener("click", (e) => {
+          link_select.forEach((event) => {
+            event.style.color = "white";
+          });
+          e.target.style.color = "yellow";
+        });
+      });
+
       link__select.forEach((e) => {
         e.addEventListener("click", () => {
           let mql = window.matchMedia("(max-width:480px)");
