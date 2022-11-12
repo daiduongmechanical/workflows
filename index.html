@@ -46,11 +46,14 @@
             <a class="link__select" ng-click="showfirst()" href="#!home"
               >Home</a
             >
+            <a class="link__select" ng-click="showfirst()" href="#!organization"
+              >organization</a
+            >
             <a class="link__select" ng-click="showfirst()" href="#!info"
               >Infomation</a
             >
-            <a class="link__select" ng-click="showfirst()" href="#!organization"
-              >organization</a
+            <a class="link__select" ng-click="showfirst()" href="#!aboutUs"
+              >About us</a
             >
           </div>
         </div>
@@ -152,21 +155,12 @@
           .when("/info", { templateUrl: "infomation.html" })
           .when("/slide", { templateUrl: "slide.html" })
           .when("/tour", { templateUrl: "tour.html" })
+          .when("/aboutUs", { templateUrl: "aboutus.html" })
+          .when("/placeTour", { templateUrl: "placeTour.html" })
           .when("/organization", { templateUrl: "organization.html" })
           .when("/clubdetail", { templateUrl: "clubdetail.html" });
       });
-      //lay data tu galay.json
 
-      app.run(function ($rootScope, $http) {
-        $http.get("galary.json").then(function (response) {
-          $rootScope.galary = response.data.galary;
-          $rootScope.position = 0;
-
-          $rootScope.click = function (event) {
-            $rootScope.position = event.id;
-          };
-        });
-      });
       // lay data tu file club.json
       app.run(function ($rootScope, $http) {
         $http.get("club.json").then(function (response) {
@@ -188,22 +182,41 @@
         };
       });
 
+      //lay data tu galay.json
+
+      app.run(function ($rootScope, $http) {
+        $http.get("galary.json").then(function (response) {
+          $rootScope.galary = response.data.galary;
+          $rootScope.position = 0;
+
+          $rootScope.click = function (event) {
+            $rootScope.position = event.id;
+          };
+        });
+      });
+
       // tao controller cho galary
       app.controller("galaryController", function ($scope) {});
       app.controller("organizationController", function ($scope) {});
 
-      app.controller("slideController", function ($scope) {
+      app.controller("slideController", function ($scope, $sce, $document) {
         let slide_play = document.querySelector(".galary_slide-hide-play");
         $scope.show = function (x) {
           $scope.showVideo = true;
           $scope.videoID = x;
-          slide_play.style.display = "none";
+          let showText = document.querySelector(".galary_slide-hide-play");
+          showText.innerText = "";
+          $scope.trustvideo = function (src) {
+            return $sce.trustAsResourceUrl(src);
+          };
         };
         //set next slide
         $scope.slidePosition = 0;
         $scope.slide_next = function (x) {
-          $scope.showVideo = false;
           $scope.videoID = "none";
+          let showText = document.querySelector(".galary_slide-hide-play");
+          showText.innerText = "click to see video";
+          $scope.showVideo = false;
           slide_play.removeAttribute("style");
           $scope.slidePosition += 1;
           if ($scope.slidePosition == x.length) {
@@ -212,10 +225,11 @@
         };
         //set back slide
         $scope.slide_back = function (x) {
-          $scope.showVideo = false;
           $scope.videoID = "none";
+          $scope.showVideo = false;
           slide_play.removeAttribute("style");
-
+          let showText = document.querySelector(".galary_slide-hide-play");
+          showText.innerText = "click to see video";
           if ($scope.slidePosition == 0) {
             $scope.slidePosition = x.length - 1;
           } else {
@@ -301,6 +315,55 @@
           };
         });
       });
+      // lay data tu file country.json
+      app.run(function ($rootScope, $http) {
+        $http.get("country.json").then(function (response) {
+          $rootScope.country = response.data.country;
+          $rootScope.tourClick = function (event) {
+            $rootScope.placetourPosition = event.tourid;
+          };
+        });
+      });
+      //about us controller
+
+      app.controller(
+        "aboutController",
+        function ($scope, $http, $document, $window) {
+          let texLocation = angular.element(
+            document.querySelector("#about_title")
+          );
+          let changeLocation = function (x) {
+            switch (x) {
+              case 1:
+                texLocation[0].className = "";
+                texLocation[0].className = "title_right";
+
+                break;
+
+              default:
+                0;
+                texLocation[0].className = "";
+                texLocation[0].className = "title_left";
+
+                break;
+            }
+          };
+
+          $http.get("about.json").then(function (response) {
+            $scope.about = response.data.about;
+            $scope.aboutPosition = 0;
+            $scope.aboutBack = function (x) {
+              $scope.aboutPosition = x == 0 ? $scope.about.length - 1 : x - 1;
+              changeLocation($scope.aboutPosition);
+            };
+            $scope.aboutNext = function (x) {
+              $scope.aboutPosition = x == $scope.about.length - 1 ? 0 : x + 1;
+
+              changeLocation($scope.aboutPosition);
+            };
+          });
+        }
+      );
 
       //lay data tu file style.json
       app.run(function ($rootScope, $http, $timeout) {
@@ -364,7 +427,6 @@
           $rootScope.startTimeout();
         });
       });
-
       // messenger box
 
       let messengericon = document.querySelector(".messenger_icon");

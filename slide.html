@@ -14,18 +14,19 @@
       <p class="galary_slide-hide-play" ng-click="show(galary[position].link)">
         click to see video
       </p>
-      <div class="galary_slide-video" ng-show="showVideo">
-        <ng-youtube-embed
-          width="100%"
-          heigh="100%"
-          video="videoID"
-          autoplay="true"
-          color="white"
-          disablekb="true"
-          allow="autoplay"
-        >
-        </ng-youtube-embed>
-      </div>
+
+      <iframe
+        class="galary_slide-video"
+        ng-show="showVideo"
+        width="100%"
+        height="100%"
+        ng-src="{{trustvideo(videoID)}}"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+
       <i
         ng-click="slide_next(galary[position].image)"
         class="fa-sharp fa-solid fa-chevron-right"
@@ -41,7 +42,7 @@
       href="{{galary[position].location}}"
       >{{galary[position].name}}</a
     >
-    <p>{{galary[position].infomation}}</p>
+    <p class="galary_slide-info-content">{{galary[position].infomation}}</p>
     <a class="galary_slide-info-tour btn btn-success" href="#!tour"
       >Tour to this mountain</a
     >

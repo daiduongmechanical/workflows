@@ -8,12 +8,14 @@
         ng-repeat="s in galary"
         ng-click="click(s)"
       ><a href="#!slide" class="galary_item-link">
+        <div class="galary_item-cover">
         <div
           class="galary_item-image"
           style="background-image:url(./static_file/{{s.image[0]}})"
         ></div>
         <div class="galary_item-name">{{s.name}}</div>
       </div>
+    </div>
     </a>
   </div>
   </div>

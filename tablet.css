@@ -241,6 +241,12 @@ aspect-ratio: 1.5/1;
     border-right: 2px solid black;
 
 }
-
+.detail_info-content-detail{
+    overflow-y: scroll;
+    
+}
+.detail_info-content-detail::-webkit-scrollbar {
+    display: none;
+  }
 
 }

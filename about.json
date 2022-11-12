@@ -1,0 +1,24 @@
+{
+    "about":[
+    {
+        "id":0,
+
+        "sub":"who we are",
+        "image":"AboutUs.jpg",
+    
+        "title":" website share information about technical,famous moutains and more"
+        
+     },
+     {
+        "id":1,
+    
+        "sub":"Test text texxx",
+        "image":"AboutUs2.jpg",
+       
+        "title":"For over 5 years"
+       
+
+     }
+
+    ]
+    }
