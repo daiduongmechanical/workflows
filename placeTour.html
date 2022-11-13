@@ -1,8 +1,19 @@
 <div id="country">
+  <div class="thankyouPage">
+    <div class="thankyouPage_cover">
+      <div class="thankyouPage_cover-content">
+        <div class="thankyouPage_cover-content-image"></div>
+        <p class="thankyouPage_cover-content-info">
+          Thank you for choosing us! Our employee will contact with you as soon
+          as possible
+        </p>
+      </div>
+    </div>
+  </div>
   <div class="country_form">
     <div class="tour_select mt-3 mb-3">
       <div class="tour_select-info">
-        <p class="tour_item-info-name">
+        <p class="tour_sselect-info-name">
           {{galary[position].tour[placetourPosition].name}}
         </p>
         <div
@@ -13,11 +24,13 @@
 
       <div class="tour_select-description">
         <p class="tour_item-description-title">description</p>
-        <p>{{galary[position].tour[placetourPosition].description}}</p>
+        <p class="tour_item-description-content">
+          {{galary[position].tour[placetourPosition].description}}
+        </p>
       </div>
     </div>
 
-    <form action="" class="tour_select-form">
+    <form class="tour_select-form">
       <table class="tour_select-table">
         <tr>
           <td>Name:</td>
@@ -73,7 +86,7 @@
         </tr>
         <tr>
           <td class="country_submit">
-            <input type="submit" class="btn btn-primary" />
+            <button ng-click="submit()" class="btn btn-primary">Send</button>
           </td>
         </tr>
       </table>

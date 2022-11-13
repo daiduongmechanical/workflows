@@ -316,14 +316,34 @@
         });
       });
       // lay data tu file country.json
-      app.run(function ($rootScope, $http) {
+      app.run(function ($rootScope, $http, $document, $timeout, $window) {
+        $rootScope.submit = function () {
+          let thankyou = angular.element(
+            document.querySelector(".thankyouPage")
+          );
+          let palaceForm = angular.element(
+            document.querySelector(".tour_select-form")
+          );
+          thankyou[0].style.display = "flex";
+          let submitPlace = setInterval(function () {
+            palaceForm[0].submit();
+            palaceForm[0].action = "http://127.0.0.1:5500/index.html";
+            clearInterval(submitPlace);
+            $window.onload();
+          }, 4000);
+        };
+
         $http.get("country.json").then(function (response) {
           $rootScope.country = response.data.country;
           $rootScope.tourClick = function (event) {
             $rootScope.placetourPosition = event.tourid;
+            let palaceForm = angular.element(
+              document.querySelector(".tour_select-form")
+            );
           };
         });
       });
+
       //about us controller
 
       app.controller(
