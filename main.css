@@ -49,12 +49,13 @@ margin-left: 50px;
 .navbar_item a:hover{
     background-color: rgba(148,0,211,0.6);
     color: yellow;
+    border-radius:  10px;
 }
 
 .logo{
     width: 120px;
  aspect-ratio: 2/1;
-    background-image: url(./static_file/officlogo.png);
+    background-image: url(./static_file/newlogo.png);
     background-size:110%;
     background-position: center;
 }
@@ -1211,7 +1212,8 @@ margin: auto;
     font-weight: bold;
     width: 90%;
     height: auto;
-    animation: 2s anim-lineUp ease-out ;
+ 
+
    
 }
 
@@ -1221,14 +1223,24 @@ margin: auto;
     
     justify-content: center;
     align-items: flex-start;   
+    color: white;
+    text-shadow: 3px 3px 3px black;
   
     
+}
+.title_middle{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
 }
 
 .title_right{
     justify-content: center;
     align-items: flex-end;   
     justify-content: flex-start;
+    color: white;
+    text-shadow: 3px 3px 3px black;
 
 }
 
@@ -1250,11 +1262,32 @@ margin: auto;
     }
   }
 
+
+  @keyframes again-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
 #about_title h2{
-    font-size: 300%;
+    font-size: 50px;
 text-align: center;
-    color: black;
-    font-family: italic 40px/10px "Benton Modern RE",serif;;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
 }
 #about_title em{
     margin-top: 10px;

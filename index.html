@@ -21,6 +21,12 @@
       referrerpolicy="no-referrer"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
@@ -329,7 +335,6 @@
             palaceForm[0].submit();
             palaceForm[0].action = "http://127.0.0.1:5500/index.html";
             clearInterval(submitPlace);
-            $window.onload();
           }, 4000);
         };
 
@@ -355,15 +360,15 @@
           let changeLocation = function (x) {
             switch (x) {
               case 1:
-                texLocation[0].className = "";
                 texLocation[0].className = "title_right";
+                texLocation[0].style.animation = "2s again-lineUp ease-out";
+                texLocation[0].removeAttribute(style);
 
                 break;
 
-              default:
-                0;
-                texLocation[0].className = "";
+              case 0:
                 texLocation[0].className = "title_left";
+                texLocation[0].style.animation = "2s anim-lineUp ease-out";
 
                 break;
             }
