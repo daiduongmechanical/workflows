@@ -1,0 +1,35 @@
+{
+   "about":[
+   {
+       "id":0,
+       "name":"THE DESTINATION",
+       "sub":"who we are",
+       "image":"AboutUs.jpg",
+       "title":"We are a team build around passion for sharing information about technical,famous moutains and more. For over 5 years, our volunteers have been teaching skills, sharing adventures, creating volunteers, and conserving land."
+       
+    },
+    {
+       "id":1,
+       "name":"THE DESTINATION",
+       "sub":"Our mission",
+       "image":"ab3.jpg",
+      
+       "title":" Our mission is to enrich the community by helping people explore, conserve, learn about, and enjoy the lands and waters in the world. We think it's important to introduce people to the moutaineering early and often, and we work to protect the moutaineering experience for future generations. We believe everyone should feel belonging in the outdoors, and we're striving to connect people."
+      
+
+    },
+    {
+      "id":2,
+      "name":"THE DESTINATION",
+      "sub":"Our vision ",
+      "image":"ab4.jpg",
+     
+      "title":"become the destination for everybody who wants to know about mountaineering, and become the place for everybody to share amazing Journeys"
+     
+
+   }
+
+ 
+
+   ]
+   }

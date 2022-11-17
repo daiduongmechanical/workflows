@@ -1,0 +1,115 @@
+<div id="country">
+  <div class="thankyouPage">
+    <div class="thankyouPage_cover">
+      <div class="thankyouPage_cover-content">
+        <div class="thankyouPage_cover-content-image"></div>
+        <p class="thankyouPage_cover-content-info">
+          Thank you for choosing us! Our employee will contact with you as soon
+          as possible
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="country_form">
+    <div class="tour_select mt-3 mb-3">
+      <div class="tour_select-info">
+        <p class="tour_sselect-info-name">{{tourSelect.name}}</p>
+        <div
+          class="tour_item-logo"
+          style="background-image:url(./static_file/{{tourSelect.logo}})"
+        ></div>
+      </div>
+
+      <div class="tour_select-description">
+        <p></p>
+        <p class="tour_item-description-title">description</p>
+        <p class="tour_item-description-content">{{tourSelect.description}}</p>
+      </div>
+    </div>
+
+    <form ng-submit="formSubmit($event)" class="tour_select-form" name="myform">
+      <table class="tour_select-table">
+        <tr>
+          <td>Name:</td>
+          <td>
+            <input
+              required
+              pattern="[A-Za-z]{4,20}"
+              name="name"
+              type="text"
+              class="country_input"
+              placeholder="Enter Your Name..."
+            />
+          </td>
+          <td>
+            <span ng-show="myform.name.$error.required && myform.name.$dirty"
+              >the name is require</span
+            >
+            <span ng-show="myform.name.$error.pattern && myform.name.$dirty"
+              >the name upper three character</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td>
+            <input
+              required
+              type="text"
+              name="email"
+              class="country_input"
+              placeholder="Enter Your Email..."
+            />
+          </td>
+          <td>
+            <span ng-show="myform.email.$error.required && myform.email.$dirty"
+              >the email is require</span
+            >
+            <span ng-show="myform.email.$error.pattern && myform.email.$dirty"
+              >the email follow type exam@xxx.com</span
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td>
+            <input
+              required
+              name="phone"
+              type="number"
+              min="0"
+              class="country_input"
+              placeholder="Enter Phone Number..."
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Country:</td>
+          <td>
+            <select name="country" class="country_input">
+              <option ng-repeat="s in country" value="{{s.name}}">
+                {{s.name}}
+              </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Subject:</td>
+          <td>
+            <textarea
+              name="subject"
+              class="country_input textareaInput"
+              placeholder="Write Somethings ..."
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="country_submit">
+            <input type="submit" value="submit" class="btn btn-warning" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>

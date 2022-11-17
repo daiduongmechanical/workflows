@@ -1,0 +1,85 @@
+{
+    "club":[
+    {
+        "id":0,
+        "name":"IFMGA",
+        "infomation":"The International Federation of Mountain Guides Associations - also known as the IFMGA, UIAGM, or IVBV, depending on what language you speak - is the world leader in mountain guide training, education, and certification.The organisation was founded in 1965 by mountain guides from Austria, France, Switzerland, and Italy as a way to promote the professionalism of mountain guiding on a global scale.Today, the IFMGA is comprised of over 20 countries from Europe, Asia, North and South America, and Oceania, with a total membership of over 6,000 guides. Mountain Guides who are fully certified by their home country’s member organisation earn the coveted title of International Mountain Guide, which is the world’s highest guiding qualification.Many IFMGA member organisations also provide training for climbing instructors and help set standards for best climbing practices around the world.",
+        "image":"0.PNG",
+        "address":"Witów 300A, 34-512 Witów, Poland",
+        "link":"https://ifmga.info/",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.95256144614!2d85.32692671430155!3d27.718750931599242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1911f5633149%3A0x7d37def5e6253379!2sMountain%20Guide!5e0!3m2!1svi!2s!4v1667443960386!5m2!1svi!2s"
+     },
+     {
+        "id":1,
+        "name":"UIAA",
+        "infomation":"The International Climbing and Mountaineering Federation (UIAA) was founded in 1932 to promote and protect mountaineering and climbing interests around the world. These days, the UIAA represents over 90 member associations and federations within 68 different countries on 6 continents, giving it a global presence in the international climbing community.One of the main focuses of the UIAA is to uphold safety and technical standards for climbing equipment.Developed in the 1960s, the UIAA Safety Label is given to equipment that meets the testing requirements for a particular type of gear. The UIAA stringently tests a wide variety of gear to help ensure that only quality equipment is used in the mountains.",
+        "image":"1.PNG",
+        "address":"Monbijoustrasse 61, 3007 Bern, Switzerland",
+        "link":"https://theuiaa.org/",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.580714880439!2d77.16007831432334!3d28.5823506931028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d0fc8210fe1%3A0x9768225daf7b59d4!2sIndian%20Mountaineering%20Foundation!5e0!3m2!1svi!2s!4v1667444159846!5m2!1svi!2s"
+     },
+     {
+        "id":2,
+        "name":"IFSC",
+        "infomation":"The International Federation of Sport Climbing (IFSC) is the international governing body for competition climbing. The IFSC was created in 2007 and is considered an Olympic Sport Federation.The IFSC can also be considered an umbrella organisation that includes member climbing federations from countries on six continents. The main objective of the IFSC is to regulate, promote, and develop the world of competition climbing both on local and international scales.The IFSC is the governing body for international sport climbing competitions, such as world cup events. Additionally, as a result of climbing’s inclusion in the 2020 Olympic Games programming, the IFSC is now the tasked with organising Olympic Qualification events for climbers around the world.",
+        "image":"2.PNG",
+        "address":"Av. Mauro Ramos, 950 - Centro, Florianópolis - SC, 88020-300, Brazil",
+        "link":"https://www.ifsc-climbing.org/",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.778436073412!2d7.665462015057416!3d45.070005467681284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d089d12ccd3%3A0x7c8966eb17b62ae!2sInternational%20Federation%20of%20Sport%20Climbing%20(IFSC)!5e0!3m2!1sen!2s!4v1667372866965!5m2!1sen!2s"
+     },
+     {
+        "id":3,
+        "name":"BMC",
+        "infomation":"The British Mountaineering Council is the national organisation that represents climbers and mountaineers in England and Wales. The purpose of the organisation is to protect and promote the interests of hill walkers, climbers, and mountaineers. Anyone can be a member of the BMC and these days, the organisation has some 75,000 members and 280 affiliated clubs. Membership with the BMC has a whole host of benefits, including access to the BMC’s travel insurance, gear discounts, training advice, and a magazine subscription. The BMS also produces climbing guidebooks for various part of England and Wales. Additionally. The BMC is the UK’s representative in the International Federation of Sport Climbing (IFSC).",
+        "image":"3.PNG",
+        "address":"177-179 Burton Rd, West Didsbury, Manchester M20 2BB, United Kingdom",
+        "link":"https://https://www.thebmc.co.uk/",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.388146625964!2d-2.245401684611485!3d53.4257678764611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb26f05b58fb9%3A0x9dbba4212bdb6cdc!2sThe%20British%20Mountaineering%20Council!5e0!3m2!1sen!2s!4v1667372914389!5m2!1sen!2s"
+     },
+     {
+        "id":4,
+        "name":"Mountaineering Scotland",
+        "infomation":"Mountaineering Scotland, formerly known as the Mountaineering Council of Scotland, is the national organisation representing climbers, mountaineers, hill walkers, and snowsports enthusiasts in Scotland. The organisation has over 14,000 members and tasks itself with promoting responsible participation in mountain pursuits.Mountaineering Scotland offers memberships to individuals which give them access to a variety of benefits, including gear discounts, magazine subscriptions, access to subsidised mountain skill courses, liability insurance, and mountaineering huts. As an organisation, Mountaineering Scotland is also active in creating accessible training opportunities for new and experienced mountaineers, alike, at a variety of places across the country.",
+        "image":"4.PNG",
+        "address":"The Granary, W Mill St, Perth PH1 5QP, United Kingdom",
+        "link":"https://www.mountaineering.scot/",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76077.1387918659!2d-2.6675236374999876!3d53.42536659999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0119d04ea09f%3A0x4cde1a46b3a4e9d!2sMountaineerin%20Ltd!5e0!3m2!1sen!2s!4v1667372978295!5m2!1sen!2s"
+     },
+     {
+        "id":5,
+        "name":"SektionBritannia",
+        "infomation":"The AAC(UK) is one of the largest mountaineering organisations in the UK. While it may seem odd to include the Austrian Alpine Club as a British and Irish climbing organisation, the club actually runs an English-speaking UK section which offers British and overseas members a fantastic array of benefits.One of the best benefits of membership in the AAC(UK) is the club’s great rescue, medical, and repatriation insurance, which is included at no additional cost to members.       Membership in the organisation also gives individuals discounted accommodation in nearly all alpine huts that belong to members of the National Alpine Mountaineering Federations. Plus, members can sign up for some fun and educational alpine training courses with the club to improve their own climbing skills.",
+        "image":"5.PNG",
+        "address":"Unit 43, Glenmore Business Park, Blackhill Rd, Holton Heath, Poole BH16 6NL, United Kingdom",
+        "link":"https://www.alpenverein.at/britannia/",
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.0123107157838!2d-2.0763861847238805!3d50.71971077580832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a8eb31e8d25f%3A0x60dd35b943138984!2sAustrian%20Alpine%20Club%20UK!5e0!3m2!1sen!2s!4v1667373049228!5m2!1sen!2s"
+     },
+     {
+      "id":6,
+      "name":"MTA",
+      "infomation":"The Mountain Training Association (MTA) is the collection of national governing bodies for mountaineering in the United Kingdom and Ireland.The organisation oversees the awarding of qualifications in hill walking, climbing, and mountaineering in the UK and Ireland, so they’re your main source of information and training to become an outdoor professional in these two countries. Membership in the MTA or one of its member organisations gives individuals access to the MTA’s many training schemes, including the Mountain Leader (ML) qualification, the International Mountain Leader qualification (IML), the Rock Climbing Instructor qualification (RCI), and the Mountaineering and Climbing Instructor qualification. The MTA also produces a number of handbooks and guides for climbers looking to improve their skills.",
+      "image":"6.PNG",
+      "address":"70 A4086, Capel Curig, Betws-y-Coed LL24 0ET, United Kingdom",
+      "link":"https://www.mountain-training.org/",
+      "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2395.444891381072!2d-3.9206054846251632!3d53.10220380067171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48650e38e26bb21b%3A0x4a9b465f25eeb0cc!2sMountain%20Training!5e0!3m2!1sen!2s!4v1667530304528!5m2!1sen!2s"
+      },
+      {
+         "id":7,
+         "name":"BMG",
+         "infomation":"The British Mountain Guides Association (BMG) is the UK’s member organisation in the IFMGA. The BMG represents all British mountain guides working in the UK and overseas, promoting their interests and setting professional standards within the country for qualification. The BMG offers a comprehensive training programme for people wanting to become qualified international mountain guides. That being said, the BMG’s training is distinct from the training provided by the MTA as the BMG focuses more on training guides rather than training instructors. Additionally, qualified BMGs can guide clients in all forms of climbing, mountaineering, and ski mountaineering in some of the world’s most famous climbing locales.",
+         "image":"7.PNG",
+         "address":"Siabod Cottage, Capel Curig LL24 0ES, United Kingdom",
+         "link":"https://www.bmg.org.uk/",
+         "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2395.440063227165!2d-3.920245684625145!3d53.10229050066526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48650e38e26bb21b%3A0x67896a4ef9084a5c!2sBritish%20Mountain%20Guides!5e0!3m2!1sen!2s!4v1667530715672!5m2!1sen!2s%22"
+      },
+      {
+         "id":8,
+         "name":"AC",
+         "infomation":"The oldest climber’s club in the world, the Alpine Club was founded in 1857 as a social and sporting organisation in the United Kingdom. The modern AC is dedicated to promoting climbing ethics, protecting mountain regions and the people who call them home from irresponsible climbing. That being said, the Alpine Club is, and has always been, an exclusive club open only to people who have a demonstrated proficiency and background in climbing at a fairly high level. Although standards have relaxed a bit since the club’s inception, prospective members must fill out an application detailing their climbing experience and they must have a proposer that is already a full member of the club sponsor their application before it will be considered.",
+         "image":"8.PNG",
+         "address":"Unit 43, Glenmore Business Park, Blackhill Rd, Holton Heath, Poole BH16 6NL, United Kingdom",
+         "link":"http://www.alpine-club.org.uk/",
+         "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20335139.49856575!2d-33.831050199999986!3d51.5257484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873a8eb31e8d25f%3A0x60dd35b943138984!2sAustrian%20Alpine%20Club%20UK!5e0!3m2!1sen!2s!4v1667530953570!5m2!1sen!2s%22"
+      }
+    ]
+}

@@ -1,0 +1,252 @@
+@media only screen
+and (min-width: 767px) 
+and (max-width: 1024px) {
+
+    html,
+    body {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    #coverall {
+      max-width: 100%;
+    }
+  /* css first page */
+    #first{
+        width: 100%;
+        height: 60vh;
+       background-image: url(./static_file/image\ page\ 1.jpg);
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right; 
+    }
+    
+    .first__gallary{
+        width: 50%;
+        height: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center; 
+        box-sizing: border-box;
+        padding: 40px;
+    flex-direction: column;
+    }
+    /* Footer */
+#footer{
+    width: 100%;
+    height: 40vh;
+        background-color: lightyellow;
+box-sizing: border-box;
+padding-top: 30px;
+margin-top: 0;
+        font-size: 22px;
+   
+    }
+
+    /* club detail */
+    #detail{
+        width: 100%;
+        height: 60vh;
+        box-sizing: border-box;
+        padding: 70px 0 0 0;
+        display: flex;
+    }
+    .detail_map{
+        width:55%;
+        height: 100%;
+        border: 2px solid black;
+        border-right: 0 ;
+    }
+    .detail_info{
+        width: 45%;
+        height: 100%;
+        background-color: white;
+        box-sizing: border-box;
+        border: 2px solid black
+    
+    }
+    /* css history */
+    #history{
+        width: 100%;
+        height: 70vh;
+        box-sizing: border-box;
+     padding: 0 ;
+        padding-top: 65px;
+        display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+    
+    }
+    .timeline{
+        margin-top:30px;
+        display: flex;
+        width: 95%;
+        margin-left: 20px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      
+         
+    }
+    .timeline_item{
+    
+        position: relative;
+      width: 30px;
+      height: 30px;
+         background-color: aqua;
+         border-radius: 100%;
+         z-index: 1;
+     cursor: pointer;
+     }
+     .timeline_bar{
+    position: absolute;
+    width: 94%;
+    z-index: 0;
+    height: 8px;  
+    
+}
+.timeline_item-time{
+    position: relative;
+    bottom: 90%;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+  right: 50%;
+    
+}
+.timeline_content-image{
+    width:60%;
+    height: 100%; 
+     background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-color: white;
+}
+.timeline_content{
+    margin-top: 20px;
+    width: 100%;
+    height:50vh;
+
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+timeline_content-main{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#hazard{
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+   padding: 0;
+   padding-top: 65px;
+
+    display: flex;
+}
+#style{
+    width: 100%;
+    height: 75vh;
+    box-sizing: border-box;
+    padding:0;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+tyle_content-info{
+    background-color:white;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+}
+.style_content-more{
+
+    width: 55%;
+    height: 100%;
+}
+.style_content-image{
+    width: 100%;
+    height: auto;
+aspect-ratio: 1.5/1;
+    box-sizing: border-box;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#shelter{
+    width: 100%;
+    height: 90vh;
+   
+    box-sizing: border-box;
+    display: flex   ;
+    padding: 0;
+    padding-top:65px;
+ 
+}
+.shelter_btn{
+    width: 20%;
+    height: 100%;
+   border: 2px black solid;
+   display: block;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px gray;
+    
+}
+.shelter_name{
+    min-width: 100%;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+  box-shadow: 3px 3px 3px 3px gray;
+    color: black;
+   
+}
+#skill{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    padding:0 ;
+    padding-top: 65px;
+
+}
+
+.galary_slide {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 100px 0px 40px 0px;
+}
+.tour_item-info{
+    min-width: 40%;
+    height: 100%;
+    margin-left: 10px;
+    border-right: 2px solid black;
+
+}
+.detail_info-content-detail{
+    overflow-y: scroll;
+    
+}
+.detail_info-content-detail::-webkit-scrollbar {
+    display: none;
+  }
+
+}

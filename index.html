@@ -10,9 +10,9 @@
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
     />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="tablet.css" />
-    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="./css_file/main.css" />
+    <link rel="stylesheet" href="./css_file/tablet.css" />
+    <link rel="stylesheet" href="./css_file/mobile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -53,7 +53,7 @@
               >Home</a
             >
             <a class="link__select" ng-click="showfirst()" href="#!organization"
-              >organization</a
+              >Organization</a
             >
             <a class="link__select" ng-click="showfirst()" href="#!info"
               >Infomation</a
@@ -73,14 +73,14 @@
       <div id="first">
         <div class="first__gallary">
           <p>
-            come to see the best moments with majestic mountains around the
+            Come to see the best moments with majestic mountains around the
             world in our gallery
           </p>
           <a
             class="btn btn-warning first__gallary--link link__select"
             href="#!galary"
           >
-            goto galarry
+            Goto gallery
           </a>
         </div>
       </div>
@@ -156,20 +156,22 @@
 
       app.config(function ($routeProvider) {
         $routeProvider
-          .when("/home", { templateUrl: "home.html" })
-          .when("/galary", { templateUrl: "galary.html" })
-          .when("/info", { templateUrl: "infomation.html" })
-          .when("/slide", { templateUrl: "slide.html" })
-          .when("/tour", { templateUrl: "tour.html" })
-          .when("/aboutUs", { templateUrl: "aboutus.html" })
-          .when("/placeTour", { templateUrl: "placeTour.html" })
-          .when("/organization", { templateUrl: "organization.html" })
-          .when("/clubdetail", { templateUrl: "clubdetail.html" });
+          .when("/home", { templateUrl: "./file_html/home.html" })
+          .when("/galary", { templateUrl: "./file_html/galary.html" })
+          .when("/info", { templateUrl: "./file_html/infomation.html" })
+          .when("/slide", { templateUrl: "./file_html/slide.html" })
+          .when("/tour", { templateUrl: "./file_html/tour.html" })
+          .when("/aboutUs", { templateUrl: "./file_html/aboutus.html" })
+          .when("/placeTour", { templateUrl: "./file_html/placeTour.html" })
+          .when("/organization", {
+            templateUrl: "./file_html/organization.html",
+          })
+          .when("/clubdetail", { templateUrl: "./file_html/clubdetail.html" });
       });
 
       // lay data tu file club.json
       app.run(function ($rootScope, $http) {
-        $http.get("club.json").then(function (response) {
+        $http.get("./json_file/club.json").then(function (response) {
           $rootScope.club = response.data.club;
           $rootScopepositionClub = 0;
           //xu ly phan club
@@ -191,7 +193,7 @@
       //lay data tu galay.json
 
       app.run(function ($rootScope, $http) {
-        $http.get("galary.json").then(function (response) {
+        $http.get("./json_file/galary.json").then(function (response) {
           $rootScope.galary = response.data.galary;
           $rootScope.position = 0;
 
@@ -254,7 +256,7 @@
       // lay data tu file shelter.json
 
       app.run(function ($rootScope, $http) {
-        $http.get("shelter.json").then(function (response) {
+        $http.get("./json_file/shelter.json").then(function (response) {
           $rootScope.shelter = response.data.shelter;
           $rootScope.positionshelter = 0;
           $rootScope.shelterClick = function (event) {
@@ -275,7 +277,7 @@
       //lay data tu file history.json
 
       app.run(function ($rootScope, $http, $document) {
-        $http.get("history.json").then(function (response) {
+        $http.get("./json_file/history.json").then(function (response) {
           $rootScope.history = response.data.history;
           $rootScope.positionHistory = 0;
           $rootScope.clickHistory = function (event) {
@@ -302,7 +304,7 @@
       });
       //lay data tu file hazard.json
       app.run(function ($rootScope, $http) {
-        $http.get("hazard.json").then(function (response) {
+        $http.get("./json_file/hazard.json").then(function (response) {
           $rootScope.hazard = response.data.hazard;
           $rootScope.positionhazard = 0;
 
@@ -323,28 +325,24 @@
       });
       // lay data tu file country.json
       app.run(function ($rootScope, $http, $document, $timeout, $window) {
-        $rootScope.submit = function () {
-          let thankyou = angular.element(
-            document.querySelector(".thankyouPage")
-          );
-          let palaceForm = angular.element(
-            document.querySelector(".tour_select-form")
-          );
-          thankyou[0].style.display = "flex";
-          let submitPlace = setInterval(function () {
-            palaceForm[0].submit();
-            palaceForm[0].action = "http://127.0.0.1:5500/index.html";
-            clearInterval(submitPlace);
-          }, 4000);
-        };
-
-        $http.get("country.json").then(function (response) {
+        $http.get("./json_file/country.json").then(function (response) {
           $rootScope.country = response.data.country;
+
           $rootScope.tourClick = function (event) {
-            $rootScope.placetourPosition = event.tourid;
-            let palaceForm = angular.element(
-              document.querySelector(".tour_select-form")
+            $rootScope.tourSelect = event;
+          };
+
+          $rootScope.formSubmit = function (form) {
+            let thankyou = angular.element(
+              document.querySelector(".thankyouPage")
             );
+            thankyou[0].style.display = "flex";
+            let comeback = setInterval(() => {
+              clearInterval(comeback);
+
+              form.path[0].action = "http://127.0.0.1:5500/index.html";
+              form.path[0].submit();
+            }, 4000);
           };
         });
       });
@@ -365,6 +363,12 @@
                 texLocation[0].removeAttribute(style);
 
                 break;
+              case 2:
+                texLocation[0].className = "title_middle";
+                texLocation[0].style.animation = "2s mid-lineUp ease-out";
+                texLocation[0].removeAttribute(style);
+
+                break;
 
               case 0:
                 texLocation[0].className = "title_left";
@@ -374,7 +378,7 @@
             }
           };
 
-          $http.get("about.json").then(function (response) {
+          $http.get("./json_file/about.json").then(function (response) {
             $scope.about = response.data.about;
             $scope.aboutPosition = 0;
             $scope.aboutBack = function (x) {
@@ -392,7 +396,7 @@
 
       //lay data tu file style.json
       app.run(function ($rootScope, $http, $timeout) {
-        $http.get("style.json").then(function (response) {
+        $http.get("./json_file/style.json").then(function (response) {
           $rootScope.style = response.data.style;
           $rootScope.autoImage = 0;
           $rootScope.positionStyle = 0;
