@@ -17,14 +17,16 @@ and (max-width: 1024px) {
     #first{
         width: 100%;
         height: 60vh;
-       background-image: url(./static_file/image\ page\ 1.jpg);
+       background-image: url(../static_file/image\ page\ 1.jpg);
        background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: right; 
     }
-    
+    .navbar_item{
+        
+        }
     .first__gallary{
         width: 50%;
         height: 100%;
