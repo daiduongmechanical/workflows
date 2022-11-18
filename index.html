@@ -61,6 +61,10 @@
             <a class="link__select" ng-click="showfirst()" href="#!aboutUs"
               >About us</a
             >
+            >
+            <a class="link__select" ng-click="showfirst()" href="#!club"
+              >Club</a
+            >
           </div>
         </div>
         <div class="navbar_right">
@@ -162,9 +166,10 @@
           .when("/slide", { templateUrl: "./file_html/slide.html" })
           .when("/tour", { templateUrl: "./file_html/tour.html" })
           .when("/aboutUs", { templateUrl: "./file_html/aboutus.html" })
+          .when("/club", { templateUrl: "./file_html/club.html" })
           .when("/placeTour", { templateUrl: "./file_html/placeTour.html" })
           .when("/organization", {
-            templateUrl: "./file_html/organization.html"
+            templateUrl: "./file_html/organization.html",
           })
           .when("/clubdetail", { templateUrl: "./file_html/clubdetail.html" });
       });
