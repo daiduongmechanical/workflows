@@ -1,22 +1,24 @@
-<div
-  class="about_slides"
-  ng-controller="aboutController"
-  style="background-image: url(./static_file/{{about[aboutPosition].image}})"
->
-  <i
-    class="fa-solid fa-chevron-left about_icon"
-    ng-click="aboutBack(aboutPosition)"
-  ></i>
-  <div id="about_title" class="title_left">
-    <h2>The Destination</h2>
-    <em>{{about[aboutPosition].sub}}</em>
+<div id="club" class="container">
+  <div class="row">
+    <div class="club_item col col-sm-6 col-lg-4" ng-repeat="s in club">
+      <div class="club_item-cover mt-4">
+        <a
+          href="#!clubdetail"
+          ng-click="clickClub(s)"
+          class="club_item-link link__select"
+        >
+          <div
+            class="club_item-image"
+            style="background-image: url(./static_file/{{s.image}});"
+          ></div>
 
-    <div class="about_title_Info">
-      <h3>{{about[aboutPosition].title}}</h3>
+          <div class="club_item-content">
+            <p class="club_item-name">{{s.name}}</p>
+            <p class="club_item-address">{{s.address}}</p>
+            <p class="club_item-members">{{s.members}}</p>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
-  <i
-    class="fa-solid fa-chevron-right about_icon"
-    ng-click="aboutNext(aboutPosition)"
-  ></i>
 </div>
