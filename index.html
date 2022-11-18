@@ -61,9 +61,6 @@
             <a class="link__select" ng-click="showfirst()" href="#!aboutUs"
               >About us</a
             >
-            <a class="link__select" ng-click="showfirst()" href="#!club"
-              >Club</a
-            >
           </div>
         </div>
         <div class="navbar_right">
@@ -72,21 +69,6 @@
       </div>
 
       <!-- phan than  -->
-
-      <div id="first">
-        <div class="first__gallary">
-          <p>
-            Come to see the best moments with majestic mountains around the
-            world in our gallery
-          </p>
-          <a
-            class="btn btn-warning first__gallary--link link__select"
-            href="#!galary"
-          >
-            Goto gallery
-          </a>
-        </div>
-      </div>
 
       <!-- email icon  -->
       <div class="email__icon">
@@ -159,18 +141,22 @@
 
       app.config(function ($routeProvider) {
         $routeProvider
+
           .when("/home", { templateUrl: "./file_html/home.html" })
           .when("/galary", { templateUrl: "./file_html/galary.html" })
           .when("/info", { templateUrl: "./file_html/infomation.html" })
           .when("/slide", { templateUrl: "./file_html/slide.html" })
           .when("/tour", { templateUrl: "./file_html/tour.html" })
           .when("/aboutUs", { templateUrl: "./file_html/aboutus.html" })
-          .when("/club", { templateUrl: "./file_html/club.html" })
+
           .when("/placeTour", { templateUrl: "./file_html/placeTour.html" })
           .when("/organization", {
             templateUrl: "./file_html/organization.html",
           })
-          .when("/clubdetail", { templateUrl: "./file_html/clubdetail.html" });
+          .when("/clubdetail", { templateUrl: "./file_html/clubdetail.html" })
+          .otherwise({
+            redirectTo: "/home",
+          });
       });
 
       // lay data tu file club.json
@@ -344,7 +330,7 @@
             let comeback = setInterval(() => {
               clearInterval(comeback);
 
-              form.path[0].action = "http://127.0.0.1:5500/index.html";
+              form.path[0].action = "#!home";
               form.path[0].submit();
             }, 4000);
           };

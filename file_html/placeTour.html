@@ -37,17 +37,18 @@
               pattern="[A-Za-z]{4,20}"
               name="name"
               type="text"
+              ng-model="myname"
               class="country_input"
               placeholder="Enter Your Name..."
             />
           </td>
           <td>
-            <span ng-show="myform.name.$error.required && myform.name.$dirty"
-              >the name is require</span
+            <p
+              ng-show="myform.name.$error.required && myform.name.$dirty"
+              style="color: red"
             >
-            <span ng-show="myform.name.$error.pattern && myform.name.$dirty"
-              >the name upper three character</span
-            >
+              ID is equire
+            </p>
           </td>
         </tr>
         <tr>
