@@ -1,0 +1,490 @@
+@media only screen
+and (min-width: 481px) 
+and (max-width: 766px)
+{
+    html,
+    body {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    #coverall {
+      width:100%;
+    }
+
+
+    #navbar {
+        max-width: 100%;
+        align-items: flex-start;
+      }
+      .navbar_left {
+        flex-direction: column;
+      }
+      .navbar_item {
+        display: none;
+        flex-direction: column;
+        margin-left: 0;
+        padding: 5px 0;
+        margin-top: 60px;
+        background-color: rgba(238,130,238, 0.6);
+      }
+      .navbar_item a {
+        color: blue;
+      }
+      .logo {
+        width: 120px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+      }
+      .navbar_right {
+        display: block;
+        margin-top: 10px;
+      }
+    
+      #footer {
+        width: 100%;
+        height: 30vh;
+        font-size: 16px;
+        margin-top: 0;
+      }
+      .footer-contact {
+        width: 50%;
+        aspect-ratio: 2/1;
+        margin-top: 20px;
+        margin-right: 5px;
+      }
+    
+      .footer-store {
+        align-items: flex-start;
+      }
+      .footer-title {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: auto;
+      }
+      .footer-title_none {
+        display: none;
+      }
+      .footer-store p {
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: 10px;
+      }
+      .footer-link a {
+        font-size: 14px;
+        color: black;
+        margin: 0px 5px;
+      }
+    
+
+      #first {
+        width: 100%;
+        height: 70vh;
+        padding-top: 10vh;
+      }
+      .first__gallary {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-direction: column;
+        padding-top:65px
+      }
+    
+    
+    /* css button gaary */
+    .first__gallary--info{
+      height: 60%;
+      width: 100%;
+      margin-bottom: 150px;
+    }
+    .first__gallary--info p{
+      color: white;
+      font-size: 5vw;
+      text-shadow: 3px 3px 3px black;
+    }
+    
+    
+    .first__gallary--btn{
+      height:auto;
+      width: 50%;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     font-weight: bold;
+    
+    }
+
+
+
+    #detail{
+        width: 100%;
+        height: 60vh;
+        box-sizing: border-box;
+        padding: 70px 0 0 0;
+        display: flex;
+    }
+    .detail_map{
+        width:55%;
+        height: 100%;
+        border: 2px solid black;
+        border-right: 0 ;
+    }
+    .detail_info{
+        width: 45%;
+        height: 100%;
+        background-color: white;
+        box-sizing: border-box;
+        border: 2px solid black;
+        overflow-y: scroll;
+            
+    }
+
+ /* css history */
+
+
+ #history {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0px 5px;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .timeline {
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .timeline_moment {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .timeline_item {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 100%;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .timeline_bar {
+    position: absolute;
+    width: 94%;
+    z-index: 0;
+    height: 5px;
+  }
+  .timeline_item-time {
+    display: none;
+  }
+  .timeline_item-time-mobie {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .timeline_content-image {
+    display: none;
+  }
+  .history_mobi-image {
+    display: block;
+    float: right;
+    width: 50%;
+    aspect-ratio: 1.5/2;
+  }
+  .timeline_content-main {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .timeline_content {
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+  }
+
+
+
+
+
+ #hazard{
+width: 100%;
+height: 100vh;
+box-sizing: border-box;
+padding: 0;
+padding-top: 65px;
+
+display: flex;
+}
+
+.hazard_btn{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+    border-right: 0;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 0 5px;
+ 
+  
+}
+
+.hazard_content{
+    font-size: 16px;
+    overflow-y: scroll;
+}
+#style{
+width: 100%;
+height: 100vh;
+box-sizing: border-box;
+padding:0;
+padding-top: 65px;
+display: flex;
+flex-direction: column;
+}
+
+.style_content-info{
+background-color:white;
+width: 50%;
+height: 100%;
+font-size: 16px;
+overflow-y: scroll;
+}
+.style_content-more{
+width: 55%;
+height: 100%;
+}
+.style_content-image{
+width: 100%;
+height: auto;
+aspect-ratio: 1.5/1;
+box-sizing: border-box;
+background-position: top;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+/* css phan shelter */
+#shelter{
+    width: 100%;
+    height:auto;
+   
+    box-sizing: border-box;
+    display: flex   ;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 60px;
+  
+  }
+  .shelter_btn{
+    width: 100%;
+    overflow-x: scroll;
+    height: auto;
+   border: 2px black solid;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: 3px 3px 3px 3px gray;
+    
+  }
+  .shelter_name{
+    width: auto;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: transparent;
+  box-shadow: 3px 3px 3px 3px gray;
+    color: black;
+   
+  }
+  .shelter_info{
+    width: 100%;
+    height: auto;
+    border: 2px black solid;
+    border-left: 0;
+    padding-left: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+  }
+  .shelter_info-img{
+    width: 50%;
+    aspect-ratio: 1/1.2;
+    float: right;
+    
+  }
+  
+
+  .galary_slide {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 60px 0px 0px 0px;
+  }
+  .galary_slide-image {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+  }
+  .galary_slide-info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 36vh 5px 5px;
+    flex-direction: column;
+  }
+  .galary_slide-back {
+    position: fixed;
+    top: 65px;
+    right: 10px;
+  }
+  .galary_slide-video {
+    position: static;
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+  }
+
+
+  #tour{
+    width: 100vw;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    height: auto;
+    box-sizing: border-box;
+    padding: 65px 8vw 10px;
+  }
+  
+  .tour_item{
+    width:100%;
+    height: 50vh;
+  box-shadow: 3px 3px 3px 3px white;
+  background-color: rgba(112,112,112,0.6);
+  
+  }
+  .tour_item-link{
+  
+    display: flex;
+    flex-direction: column;
+  height: 100%;
+  
+  
+  }
+  .tour_item-info{
+  width: 100%;
+  height: 40%;
+    display: flex;
+    flex-direction: column;
+  border: none;
+  margin-bottom: 20px;
+  justify-content: center;
+  
+  }
+  .tour_item-info-name{
+    font-size: 25px;
+    height:20%;
+  text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+  
+  }
+  
+  .tour_item-logo{
+    width: 80%;
+    height: 70%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: 5px;
+    }
+  .tour_item-description-content{
+    height: auto;
+    width: 100%;
+  }
+    /* css tour select */
+  
+    #country{
+      box-sizing: border-box;
+      padding-top: 60px;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      display: flex;
+    
+  }
+  
+  .country_form{
+    background-color:rgba(0,0,0,0.6);
+  
+  box-sizing: border-box;
+  padding: 0 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+    .tour_select{
+      width:100%;
+      height:auto;
+    box-shadow: 3px 3px 3px 3px white;
+    background-color: rgba(112,112,112,0.4);
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
+  
+  
+  .tour_select-info{
+  width: 100%;
+    height: 30vh;
+  margin-bottom: 10px;
+  border: none;
+  }
+  .tour_item-description-content{
+    height: auto;
+  }
+  
+  tour_select-logo{
+    width: 100%;
+  height:80%;
+  margin-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  
+  }
+  
+
+
+}

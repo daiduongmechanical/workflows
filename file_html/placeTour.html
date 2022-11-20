@@ -1,4 +1,7 @@
-<div id="country">
+<div id="country" ng-controller="palcetourController">
+  <a href="#!galary" class="btn btn-warning galary_slide-back"
+    >Back to gallery
+  </a>
   <div class="thankyouPage">
     <div class="thankyouPage_cover">
       <div class="thankyouPage_cover-content">
@@ -27,68 +30,59 @@
       </div>
     </div>
 
-    <form ng-submit="formSubmit($event)" class="tour_select-form" name="myform">
+    <form ng-submit="formSubmit($event)" name="myform" class="tour_select-form">
       <table class="tour_select-table">
         <tr>
           <td>Name:</td>
           <td>
-            <input
-              required
-              pattern="[A-Za-z]{4,20}"
-              name="name"
-              type="text"
-              ng-model="myname"
-              class="country_input"
-              placeholder="Enter Your Name..."
-            />
+            <input type="text"  
+            ng-model="myname"  
+            class="country_input" 
+            name="name" 
+            placeholder="Enter your name"
+            required pattern="[\w' ']{2,10}"> 
+            
           </td>
           <td>
-            <p
-              ng-show="myform.name.$error.required && myform.name.$dirty"
-              style="color: red"
-            >
-              ID is equire
-            </p>
+            <p class="notify__form" ng-show="myform.name.$error.required && myform.name.$dirty"  style="color: red;">Name must not be left blank</p>
+            <p class="notify__form" ng-show="myform.name.$error.pattern && myform.name.$dirty"  style="color: red;"> Name from 2 to 10  character </p> 
           </td>
         </tr>
         <tr>
           <td>Email:</td>
           <td>
-            <input
-              required
-              type="text"
-              name="email"
-              class="country_input"
-              placeholder="Enter Your Email..."
-            />
+            <input type="text"  
+            ng-model="myemail"  
+            class="country_input" 
+            name="email" 
+            placeholder="example@xxx.com"
+            required pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"> 
           </td>
           <td>
-            <span ng-show="myform.email.$error.required && myform.email.$dirty"
-              >the email is require</span
-            >
-            <span ng-show="myform.email.$error.pattern && myform.email.$dirty"
-              >the email follow type exam@xxx.com</span
-            >
+            <p class="notify__form" ng-show="myform.email.$error.required && myform.email.$dirty"  style="color: red;">Email must not be left blank</p>
+            <p class="notify__form" ng-show="myform.email.$error.pattern && myform.email.$dirty"  style="color: red;"> Email follow form exam@xxx.xxx</p> 
           </td>
         </tr>
         <tr>
           <td>Phone:</td>
           <td>
-            <input
-              required
-              name="phone"
-              type="number"
-              min="0"
-              class="country_input"
-              placeholder="Enter Phone Number..."
-            />
+            <input type="text"  
+            ng-model="myphone"  
+            class="country_input" 
+            name="phone" 
+            placeholder="+xxx xxx xxxx"
+            required pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"> 
+          </td>
+          <td>
+            <p class="notify__form" ng-show="myform.phone.$error.required && myform.phone.$dirty"  style="color: red;"> Phone not be left blank</p>
+            <p class="notify__form" ng-show="myform.phone.$error.pattern && myform.phone.$dirty"  style="color: red;"> Phone follow +xxx xxx xxxx</p> 
           </td>
         </tr>
 
         <tr>
           <td>Country:</td>
           <td>
-            <select name="country" class="country_input">
+            <select name="country" class="country_input" required>
               <option ng-repeat="s in country" value="{{s.name}}">
                 {{s.name}}
               </option>
@@ -111,6 +105,7 @@
           </td>
         </tr>
       </table>
+      </span>
     </form>
   </div>
 </div>

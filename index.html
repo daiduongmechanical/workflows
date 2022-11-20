@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css_file/main.css" />
     <link rel="stylesheet" href="./css_file/tablet.css" />
+    <link rel="stylesheet" href="./css_file/mobilehoziron.css" />
     <link rel="stylesheet" href="./css_file/mobile.css" />
     <link
       rel="stylesheet"
@@ -314,28 +315,30 @@
         });
       });
       // lay data tu file country.json
-      app.run(function ($rootScope, $http, $document, $timeout, $window) {
-        $http.get("./json_file/country.json").then(function (response) {
-          $rootScope.country = response.data.country;
+      app.controller(
+        "palcetourController",
+        function ($rootScope, $scope, $http, $document, $timeout, $window) {
+          $http.get("./json_file/country.json").then(function (response) {
+            $rootScope.country = response.data.country;
+            $rootScope.tourClick = function (event) {
+              $rootScope.tourSelect = event;
+            };
 
-          $rootScope.tourClick = function (event) {
-            $rootScope.tourSelect = event;
-          };
+            $rootScope.formSubmit = function (form) {
+              let thankyou = angular.element(
+                document.querySelector(".thankyouPage")
+              );
+              thankyou[0].style.display = "flex";
+              let comeback = setInterval(() => {
+                clearInterval(comeback);
 
-          $rootScope.formSubmit = function (form) {
-            let thankyou = angular.element(
-              document.querySelector(".thankyouPage")
-            );
-            thankyou[0].style.display = "flex";
-            let comeback = setInterval(() => {
-              clearInterval(comeback);
-
-              form.path[0].action = "#!home";
-              form.path[0].submit();
-            }, 4000);
-          };
-        });
-      });
+                form.path[0].action = "#!home";
+                form.path[0].submit();
+              }, 4000);
+            };
+          });
+        }
+      );
 
       //about us controller
 
