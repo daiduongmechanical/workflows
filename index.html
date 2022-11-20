@@ -50,18 +50,12 @@
         <div class="navbar_left">
           <div class="logo"></div>
           <div class="navbar_item">
-            <a class="link__select" ng-click="showfirst()" href="#!home"
-              >Home</a
-            >
-            <a class="link__select" ng-click="showfirst()" href="#!organization"
-              >Organization</a
-            >
+            <a class="link__select" href="#!home">Home</a>
+            <a class="link__select" href="#!organization">Organization</a>
             <a class="link__select" ng-click="showfirst()" href="#!info"
               >Infomation</a
             >
-            <a class="link__select" ng-click="showfirst()" href="#!aboutUs"
-              >About us</a
-            >
+            <a class="link__select" href="#!aboutUs">About us</a>
           </div>
         </div>
         <div class="navbar_right">
@@ -236,13 +230,6 @@
           }
         };
       });
-      let link__select = document.querySelectorAll(".link__select");
-      let firstPage = document.querySelector("#first");
-      link__select.forEach((e) => {
-        e.onclick = (element) => {
-          firstPage.style.display = "none";
-        };
-      });
 
       // lay data tu file shelter.json
 
@@ -278,7 +265,7 @@
             let timeNode = angular.element(
               document.querySelectorAll(".timeline_item")
             );
-            timeNode.css({ backgroundColor: "aqua" });
+            timeNode.css({ backgroundColor: "#808080" });
             for (let i = 0; i < Number(event.id) + 1; i++) {
               timeNode[i].style.backgroundColor = "green";
             }
@@ -493,14 +480,6 @@
       let mql = window.matchMedia("(max-width:450px)");
       let icon_mobi = document.querySelector(".mobi_icon");
       let navbar_item = document.querySelector(".navbar_item");
-      let link_select = document.querySelectorAll(".link__select");
-      icon_mobi.addEventListener("click", () => {
-        if (navbar_item.style.display == "none") {
-          navbar_item.style.display = "flex";
-        } else {
-          navbar_item.style.display = "none";
-        }
-      });
 
       link_select.forEach((element) => {
         element.addEventListener("click", (e) => {
