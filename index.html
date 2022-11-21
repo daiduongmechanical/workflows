@@ -480,21 +480,17 @@
       let mql = window.matchMedia("(max-width:450px)");
       let icon_mobi = document.querySelector(".mobi_icon");
       let navbar_item = document.querySelector(".navbar_item");
+      let link_select = document.querySelectorAll(".link__select");
+
+      icon_mobi.addEventListener("click", () => {
+        navbar_item.style.display = "flex";
+      });
 
       link_select.forEach((element) => {
         element.addEventListener("click", (e) => {
-          link_select.forEach((event) => {
-            event.style.color = "white";
-          });
-          e.target.style.color = "yellow";
-        });
-      });
-
-      link__select.forEach((e) => {
-        e.addEventListener("click", () => {
-          let mql = window.matchMedia("(max-width:480px)");
-
+          let mql = window.matchMedia("(max-width:766px)");
           if (mql.matches) {
+            console.log("1");
             navbar_item.style.display = "none";
           }
         });
