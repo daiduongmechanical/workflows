@@ -381,7 +381,12 @@
           $rootScope.autoImage = 0;
           $rootScope.positionStyle = 0;
           //xul y phan loading
-
+          $rootScope.homeClick = function () {
+            link_select.forEach((e) => {
+              e.style.color = "white";
+              e.style.backgroundColor = "transparent";
+            });
+          };
           let myshow = function () {
             $timeout(function () {
               let styleBtn = angular.element(
@@ -488,9 +493,14 @@
 
       link_select.forEach((element) => {
         element.addEventListener("click", (e) => {
+          link_select.forEach((color) => {
+            color.style.color = "white";
+          });
+
+          e.target.style.color = "yellow";
+          e.target.backgroundColor = "#6722b7";
           let mql = window.matchMedia("(max-width:766px)");
           if (mql.matches) {
-            console.log("1");
             navbar_item.style.display = "none";
           }
         });
