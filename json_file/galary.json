@@ -8,7 +8,7 @@
         "image":["everest.jpg","everest1.jpg","everest2.jpg"],
         "height":"8,848.86 m",
         "link":"https://www.youtube.com/embed/nZmO8B9rRik?autoplay=1",
-        "tour":[{"logo":"logotour0.PNG"
+        "tour":[{"logo":"logotour0.png"
                ,"tourid":"0"
                ,"name":"Hikingnepal"
                ,"link":"https://www.hikingnepal.com/itinerary/rapid-everest-base-camp-trek?gclid=CjwKCAjw5P2aBhAlEiwAAdY7dImjLqXJ4iGAGNIZep0FRpHFvSkfRC4ZE2FKag1ps34B4flUUamQchoC2UMQAvD_BwE"
@@ -44,21 +44,21 @@
         "image":["Kilimanjaro.JPG","Kilimanjaro1.JPG","Kilimanjaro2.JPG"],
         "height":"5,895 m",
         "link":"https://www.youtube.com/embed/61hkC0wTzzo?autoplay=1",
-        "tour":[{"logo":"Kilimajarotour1.PNG"
+        "tour":[{"logo":"Kilimajarotour1.png"
         ,"tourid":"0"
                ,"name":"kilimanjaroonfoot"
                ,"link":"https://kilimanjaroonfoot.com/kilimanjaro/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUyTWTTqWKTM2aOqk8ZV3KThN3xFLkBxfUGJkvXoF0dg5Wb5f1XnPBRoCnA8QAvD_BwE"
                ,"phone":"+255 789375603"
                ,"description":"Kilimanjaro On Foot's team of experts will support you every moment of your hike to the summit, we offer the best trips to trekking Kilimanjaro at affordable prices and cost during hikes. Join the thousands of climbers who have stood on the Mount Kilimanjaro summit guided by our professional local mountain expert team."
                },
-               {"logo":"Kilimajarotour2.PNG"
+               {"logo":"Kilimajarotour2.png"
                ,"tourid":"1"
                ,"name":"shahtours"
                ,"link":"https://www.shah-tours.com/kilimanjaro-preparation/planning-your-kilimanjaro-trek/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUwmR1tLRlJcp0Qz43xEkuF1cNK9PZldDNMH69-PWA4qBGGK1tp39mBoCHlYQAvD_BwE"
                ,"phone":"+255 789375603"
                ,"description":"A private trek on Kilimanjaro means the tour you have booked has your own flexibility of dates and private services for those in your group including sleeping, dining tents, equipment (camping routes), transfers as well as a dedicated team of guides, porters, cook, waiter all there just for you / your group. There will of course be other people trekking and using public facilities at the same time."
                },
-               {"logo":"Kilimajarotour3.PNG"
+               {"logo":"Kilimajarotour3.png"
                ,"tourid":"2"
                ,"name":"shahtours"
                ,"link":"https://www.safaribookings.com/tours/kilimanjaro"
