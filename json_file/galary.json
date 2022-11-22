@@ -8,7 +8,7 @@
         "image":["everest.jpg","everest1.jpg","everest2.jpg"],
         "height":"8,848.86 m",
         "link":"https://www.youtube.com/embed/nZmO8B9rRik?autoplay=1",
-        "tour":[{"logo":"logotour0.png"
+        "tour":[{"logo":"logotour0.PNG"
                ,"tourid":"0"
                ,"name":"Hikingnepal"
                ,"link":"https://www.hikingnepal.com/itinerary/rapid-everest-base-camp-trek?gclid=CjwKCAjw5P2aBhAlEiwAAdY7dImjLqXJ4iGAGNIZep0FRpHFvSkfRC4ZE2FKag1ps34B4flUUamQchoC2UMQAvD_BwE"
@@ -44,21 +44,21 @@
         "image":["Kilimanjaro.JPG","Kilimanjaro1.JPG","Kilimanjaro2.JPG"],
         "height":"5,895 m",
         "link":"https://www.youtube.com/embed/61hkC0wTzzo?autoplay=1",
-        "tour":[{"logo":"Kilimajarotour1.png"
+        "tour":[{"logo":"Kilimajarotour1.PNG"
         ,"tourid":"0"
                ,"name":"kilimanjaroonfoot"
                ,"link":"https://kilimanjaroonfoot.com/kilimanjaro/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUyTWTTqWKTM2aOqk8ZV3KThN3xFLkBxfUGJkvXoF0dg5Wb5f1XnPBRoCnA8QAvD_BwE"
                ,"phone":"+255 789375603"
                ,"description":"Kilimanjaro On Foot's team of experts will support you every moment of your hike to the summit, we offer the best trips to trekking Kilimanjaro at affordable prices and cost during hikes. Join the thousands of climbers who have stood on the Mount Kilimanjaro summit guided by our professional local mountain expert team."
                },
-               {"logo":"Kilimajarotour2.png"
+               {"logo":"Kilimajarotour2.PNG"
                ,"tourid":"1"
                ,"name":"shahtours"
                ,"link":"https://www.shah-tours.com/kilimanjaro-preparation/planning-your-kilimanjaro-trek/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYUwmR1tLRlJcp0Qz43xEkuF1cNK9PZldDNMH69-PWA4qBGGK1tp39mBoCHlYQAvD_BwE"
                ,"phone":"+255 789375603"
                ,"description":"A private trek on Kilimanjaro means the tour you have booked has your own flexibility of dates and private services for those in your group including sleeping, dining tents, equipment (camping routes), transfers as well as a dedicated team of guides, porters, cook, waiter all there just for you / your group. There will of course be other people trekking and using public facilities at the same time."
                },
-               {"logo":"Kilimajarotour3.png"
+               {"logo":"Kilimajarotour3.PNG"
                ,"tourid":"2"
                ,"name":"shahtours"
                ,"link":"https://www.safaribookings.com/tours/kilimanjaro"
@@ -326,8 +326,102 @@
                   ,"description":"Discover the spirit of the American West and come to know the legends of the past. Discover the stories of the Lakota and Sioux through a Native American chronicler. See Crazy Horse Memorial, the world’s largest mountain sculpture still in progress. Visit iconic Mt. Rushmore."
                }
     ]
+   },
+   {
+      "id":10,
+      "name":"Fitz Roy",
+      "location":"https://goo.gl/maps/b7dU23QS3NKvEEC6A",
+      "infomation":"The first Europeans recorded as seeing Mount Fitz Roy were the Spanish explorer Antonio de Viedma and his companions, who reached the shores of Viedma Lake in 1783. Argentine explorer Francisco Moreno saw the mountain on 2 March 1877; he named it Fitz Roy in honour of Robert FitzRoy who, as captain of HMS Beagle, had travelled up the Santa Cruz River in 1834 and charted large parts of the Patagonian coast. Cerro is a Spanish word meaning ridge or hill, while Chaltén comes from a Tehuelche (Aonikenk) word meaning smoking mountain, because a cloud usually forms around the mountain's peak. Fitz Roy is one of several peaks the Tehuelche called Chaltén.[7]",
+      "image":["fi1.jpg","fi2.jpg","fi3.jpg"],
+      "height":" 463 m  ",
+      "link":"https://youtu.be/5Q6lvrKfI3c",
+      "tour":[
+                {"logo":"fi4.PNG"
+                 ,"tourid":"0"   
+                ,"name":"viator.com"
+                    ,"link":"https://www.viator.com/El-Calafate-attractions/Mt-Fitz-Roy/d935-a2761?mcid=28353&tsem=true&supci=-804756440&supag=49835148623&supsc=kwd-375268057654&supai=292832808465&supap=&supdv=c&supnt=g&supti=kwd-375268057654&suplp=1028581&supli=&m=28353&supag=49835148623&supsc=kwd-375268057654&supai=292832808465&supap=&supdv=c&supnt=nt%3Ag&suplp=1028581&supli=&supti=kwd-375268057654&tsem=true&supci=kwd-375268057654&supap1=&supap2=&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz3AwSP20fNJ2mZKE0qGOzszER9tIhAyIqWNQoZPDrccBsMT8JpXiIaAsz8EALw_wcB"
+                   ,"phone":"*********"
+                    ,"description":"Mt. Fitz Roy, the highest mountain in Los Glaciares National Park, rises 11,171 feet (3,405 meters) above the snow-blown landscape of Southern Patagonia to a granite peak that only serious climbers should consider. This recognizable landmark was named after Sir Robert FitzRoy, who once guided Charles Darwin aboard the HMS Beagle."
+                 },
+                 {"logo":"fi5.PNG"
+                  ,"tourid":"1"
+                 ,"name":"tripadvisor.com"
+                  ,"link":"https://www.tripadvisor.com/Attraction_Products-g316035-d552855-Cerro_Fitz_Roy-El_Chalten_Province_of_Santa_Cruz_Patagonia.html"
+                 ,"phone":"********"
+                  ,"description":"Mt. Fitz Roy, the highest mountain in Los Glaciares National Park, rises 11,171 feet (3,405 meters) above the snow-blown landscape of Southern Patagonia to a granite peak that only serious climbers should consider. This recognizable landmark was named after Sir Robert FitzRoy, who once guided Charles Darwin aboard the HMS Beagle."
+               },
+               {"logo":"fi6.PNG"
+                ,"tourid":"2"  
+               ,"name":"tourradar.com"
+                  ,"link":"https://www.tourradar.com/d/mount-fitz-roy"
+                 ,"phone":"********"
+                  ,"description":"Find the right tour for you through Mount Fitz Roy. We've got 18 adventures going to Mount Fitz Roy, starting from just 3 days in length, and the longest tour is 23 days. The most popular month to go is December, which has the largest number of tour departures."
+               }
+    ]
+   },
+   {
+      "id":11,
+      "name":"Ben Nevis",
+      "location":"https://goo.gl/maps/qZSnk8QPwaAzf5eY6",
+      "infomation":"Ben Nevis (/ˈnɛvɪs/ NEV-iss; Scottish Gaelic: Beinn Nibheis [pe(ɲ) ˈɲivɪʃ]) is the highest mountain in Scotland, the United Kingdom and the British Isles. The summit is 4,411 feet (1,345 m)[1] above sea level and is the highest land in any direction for 459 miles (739 kilometres).[3][a] Ben Nevis stands at the western end of the Grampian Mountains in the Highland region of Lochaber, close to the town of Fort William.The mountain is a popular destination, attracting an estimated 130,000 ascents a year,[4] around three-quarters of which use the Mountain Track from Glen Nevis.[5] The 700-metre (2,300 ft) cliffs of the north face are among the highest in Scotland, providing classic scrambles and rock climbs of all difficulties for climbers and mountaineers. They are also the principal locations in Scotland for ice climbing.",
+      "image":["be1.jpg","be2.jpg","be3.jpg"],
+      "height":" 463 m  ",
+      "link":"https://youtu.be/r7j0k-KtiMc",
+      "tour":[
+                {"logo":"be4.PNG"
+                 ,"tourid":"0"   
+                ,"name":"viator.com"
+                    ,"link":"https://www.viator.com/tours/Fort-William/Private-Tour-of-Ben-Nevis-from-Fort-William-with-Atlas-Mountaineering/d22391-7528P2?m=28353&supag=68732029897&supca=1939178107&supsc=dsa-650389793948&supai=420120885792&supdv=c&supnt=g&suplp=1028581&supli=&supti=dsa-650389793948&tsem=true&supci=dsa-650389793948&supap1=&supap2=&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz8wmrsnXbRJ-NUHMcSiat6b8qnuW26IRaXWtEMXctMQGmqqhRDsdQaAu1PEALw_wcB"
+                   ,"phone":"*********"
+                    ,"description":"Challenge yourself against Scotland’s highest mountain peak on this private 9-hour tour of Ben Nevis from Fort William. Hike along rugged trails up the flank of mighty Ben Nevis with a private guide. On route to the top, enjoy panoramic views over the Scottish Highlands’ soaring peaks and plummeting valleys. On arrival at the summit, discover features such as the ruins of a disused observatory. Take a break on the stony plateau, then enjoy the descent back to base-level below. Read more about Private Tour of Ben Nevis from Fort William "
+                 },
+                 {"logo":"be5.PNG"
+                  ,"tourid":"1"
+                 ,"name":"tripadvisor.com"
+                  ,"link":"https://www.tripadvisor.com/Attraction_Products-g186545-d194657-Ben_Nevis-Fort_William_Lochaber_Scottish_Highlands_Scotland.html"
+                 ,"phone":"********"
+                  ,"description":"Mt. Ben Nevis, the highest mountain in Los Glaciares National Park, rises 11,171 feet (3,405 meters) above the snow-blown landscape of Southern Patagonia to a granite peak that only serious climbers should consider. This recognizable landmark was named after Sir Robert FitzRoy, who once guided Charles Darwin aboard the HMS Beagle."
+               },
+               {"logo":"be6.PNG"
+                ,"tourid":"2"  
+               ,"name":"viator.com"
+                  ,"link":"https://www.viator.com/The-Scottish-Highlands-attractions/Ben-Nevis/d768-a2235"
+                 ,"phone":"********"
+                  ,"description":"Rising 4,409 feet (1,344 meters) above sea level, Ben Nevis is Scotland’s tallest mountain and a premiere destination for climbers. Once a massive volcano that exploded and collapsed inward, the summit is frequently shrouded in mist. In Gaelic, it is called the “mountain with its head in the"
+               }
+    ]
+   },
+   {
+      "id":12,
+      "name":"K2",
+      "location":"https://goo.gl/maps/wzT2Njw52Fkq5W6fA",
+      "infomation":"K2, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest (at 8,849 metres (29,032 ft)).[3] It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in a China-administered territory of the Kashmir region included in the Taxkorgan Tajik Autonomous County of Xinjiang.[4][5][6][a] K2 also became popularly known as the Savage Mountain after George Bell—a climber on the 1953 American expedition—told reporters, It's a savage mountain that tries to kill you.[7] Of the five highest mountains in the world, K2 is the deadliest; approximately one person dies on the mountain for every four who reach the summit.[7][8] Also occasionally known as Mount Godwin-Austen,[9] other nicknames for K2 are The King of Mountains and The Mountaineers' Mountain,[10] as well as The Mountain of Mountains after prominent Italian climber Reinhold Messner titled his book about K2 the same.[11]",
+      "image":["k1.jpg","k2.jpg","k3.jpg"],
+      "height":" 463 m  ",
+      "link":"https://youtu.be/kmGel9P8ekk",
+      "tour":[
+                {"logo":"k4.PNG"
+                 ,"tourid":"0"   
+                ,"name":"flyk2.com"
+                    ,"link":"https://www.viator.com/tours/Fort-William/Private-Tour-of-Ben-Nevis-from-Fort-William-with-Atlas-Mountaineering/d22391-7528P2?m=28353&supag=68732029897&supca=1939178107&supsc=dsa-650389793948&supai=420120885792&supdv=c&supnt=g&suplp=1028581&supli=&supti=dsa-650389793948&tsem=true&supci=dsa-650389793948&supap1=&supap2=&gclid=Cj0KCQiAg_KbBhDLARIsANx7wAz8wmrsnXbRJ-NUHMcSiat6b8qnuW26IRaXWtEMXctMQGmqqhRDsdQaAu1PEALw_wcB"
+                   ,"phone":"*********"
+                    ,"description":"We are privileged to share with you the incredible landscape and timeless beauty of Denali National Park. Our team takes pride in making your time with us the highlight of your trip. From our family to yours, welcome to K2 Aviation! We look forward to seeing you in Talkeetna."
+                 },
+                 {"logo":"k5.PNG"
+                  ,"tourid":"1"
+                 ,"name":"k2tours.com"
+                  ,"link":"http://www.k2tours.com/"
+                 ,"phone":"********"
+                  ,"description":"Understood our very Specific needs to its finest Intriguies and prepared a very affordable family tour of 12 Days to Japan & China.Most Importantly though the promised places were viewed by us online but what was given to us in both China and Japan was beyond Expectations."
+               },
+               {"logo":"k6.PNG"
+                ,"tourid":"2"  
+               ,"name":"k2tourspk.com/"
+                  ,"link":"http://k2tourspk.com/"
+                 ,"phone":"********"
+                  ,"description":"We are Registered From Pakistani Tourism Ministry and the largest full service Trekking, Expedition and well tour operator in Pakistan. Our main focus is meeting the needs and ensuring the safety of mountaineers, trekkers. We provide consulting and custom travel arrangements and packages."
+               }
+    ]
    }
-     
-
     ]
 }
